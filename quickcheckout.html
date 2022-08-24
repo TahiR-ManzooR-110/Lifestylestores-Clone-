@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <style>
+        * {
+            margin: 0;
+        }
+
+        #nav {
+            height: 10vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #logo {
+            width: 8vw;
+            margin-left: 6vw;
+        }
+
+        #nav>div {
+            color: grey;
+            font-size: 12px;
+            margin-right: 6vw;
+        }
+
+        /* #nav>div{
+
+        } */
+        #nav>div>div:nth-child(1) {
+            width: 10vw;
+            margin-left: 40%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        #home_delivery {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 8vh;
+            border: 2px solid orange;
+            width: 45.7%;
+            padding: 0.7rem;
+        }
+
+        #home_delivery p:last-child {
+            color: grey;
+            font-size: 13px;
+        }
+
+        #collect {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 8vh;
+            border: 1px solid grey;
+            width: 45.7%;
+            padding: 0.7rem;
+
+        }
+
+        #collect p:last-child {
+            color: grey;
+            font-size: 13px;
+        }
+
+        #main {
+            width: 55vw;
+            border: 1px solid red;
+            margin-left: 6vw;
+            margin-top: 4vh;
+            line-height: 145%;
+        }
+
+        h2 {
+            margin-bottom: 3%;
+        }
+
+        #main>div:first-child {
+            border-bottom: 1px solid grey;
+            height: 151vh;
+            margin-bottom: 4vh;
+        }
+
+        #main>div:first-child>div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 8vh;
+        }
+
+        #main>div:first-child>p:first-child {
+            font-size: 17px;
+        }
+
+        #main>div:first-child>p:last-child {
+            font-size: 14px;
+            color: grey;
+        }
+
+        #main>div:first-child input {
+            width: 65%;
+            height: 5vh;
+            margin-top: 1vh;
+            margin-bottom: 2vh;
+        }
+
+        #main>div:first-child select {
+            width: 66%;
+            height: 6vh;
+        }
+
+        #main>div:first-child>#address_type {
+            display: flex;
+            justify-content: space-between;
+            width: 40%;
+            border: 1px solid red;
+        }
+
+        #main>div:first-child>#address_type input {
+            width: 2vw;
+            height: 0%;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        #main>div:first-child>#address_type label {
+            margin-left: -53%
+        }
+
+        h3 {
+            margin-bottom: 4vh;
+        }
+
+        #card_icon {
+            font-size: 30px;
+        }
+
+        #cards {
+            display: flex;
+        }
+
+        #cards>div {
+            display: flex;
+            justify-content: space-between;
+            border: 1px solid;
+            width: 41%;
+            align-items: center;
+            margin-left: 1%;
+        }
+
+        #cards+div {
+
+            margin-left: 5%;
+            margin-top: 4vh;
+
+        }
+
+        #c_card {
+            margin-right: 25%;
+        }
+
+        .input_cards {
+            width: 55%;
+            height: 5vh;
+            margin-top: 1vh;
+            margin-bottom: 2vh;
+        }
+
+        #card_details {
+            margin-top: 5vh;
+            margin-bottom: 4vh;
+        }
+
+        #card_details>select {
+            width: 18%;
+            height: 6vh;
+        }
+
+        #card_details>select+input {
+            width: 18%;
+            height: 5vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="nav">
+        <img id="logo" src="//i1.lmsin.net/website_images/in/logos/logo-lifestyle.svg" alt="lifestyle logo">
+        <div>
+            <div>
+                <i class="bi bi-telephone"></i>
+                <p>Call 1800-123-1555</p>
+            </div>
+            <div>
+                Monday - Saturday, 09:00AM - 07:00PM
+            </div>
+
+        </div>
+    </div>
+    <hr>
+    <div id="main">
+        <div>
+            <h2>Select a shipping method</h2>
+            <div>
+                <div id="home_delivery">
+                    <p>Home Delivery</p>
+                    <p>Get your product delivered to your home.</p>
+                </div>
+                <div id="collect">
+                    <p>Click & Collect</p>
+                    <p>Collect your order from a store of your choice.</p>
+                </div>
+            </div>
+            <h3>Add your shipping address</h3>
+            <label for="">Full Name</label><br>
+            <input type="text" placeholder="Enter your full name"><br>
+            <label for="">Mobile Number</label><br>
+            <input type="text" placeholder="Enter your mobile number"><br>
+            <label for="">Pincode</label><br>
+            <input type="number" placeholder="Enter your Pincode"><br>
+            <label for="">City</label><br>
+            <input type="text" placeholder="Select your city or Town"><br>
+            <label for="">State</label><br>
+            <select aria-placeholder="Select your State">
+                <option value="">Select your State</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Pune">Pune</option>
+                <option value="Rajasthan">Rajasthan</option>
+                <option value="Bihar">Bihar</option>
+                <option value="Banguluru">Banguluru</option>
+            </select><br>
+            <label for="">Building name or number</label><br>
+            <input type="text" placeholder="Enter Building Name"><br>
+            <label for="">Street name or number</label><br>
+            <input type="text" placeholder="Flat/House number, Floor, Building"><br>
+            <label for="">Landmark</label><br>
+            <input type="text" placeholder="Landmark"><br>
+            <label for="">Address Type</label><br>
+            <div id="address_type">
+                <input type="radio" name="address_type">
+                <label for="">Home</label>
+                <input type="radio" name="address_type">
+                <label for="">Office</label>
+            </div>
+        </div>
+        <div>
+            <h2>Select a payment method</h2>
+            <div id="cards">
+                <input type="radio" name="cards">
+                <div>
+                    <i id="card_icon" class="bi bi-credit-card-2-back"></i>
+                    <div>
+                        <h4>Credit/Debit Card</h4>
+                        <p style="color: grey;">Use your Credit or Debit card</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <input type="radio" name="card">
+                    <label for="" id="c_card">Credit Card</label>
+                    <input type="radio" name="card">
+                    <label for="">Debit Card</label>
+                </div>
+                <div id="card_details">
+                    <label for="">Card Number</label><br>
+                    <input type="number" class="input_cards" placeholder="Enter your 6 digit card number"><br>
+                    <label for="">Name on Card</label><br>
+                    <input type="text" class="input_cards" placeholder="Name on Card"><br>
+                    <label for="">Expiry Date</label>
+                    <label for="" style="margin-left: 5%;">CVV</label><br>
+                    <select>
+                        <option value="">MM</option>
+                        <option value="1">01</option>
+                        <option value="2">02</option>
+                        <option value="3">03</option>
+                        <option value="4">04</option>
+                        <option value="5">05</option>
+                        <option value="6">06</option>
+                        <option value="7">07</option>
+                        <option value="8">08</option>
+                        <option value="9">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                    <select>
+                        <option value="">YYYY</option>
+                        <option value="">2022</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                        <option value="2025">2025</option>
+                        <option value="2026">2026</option>
+                        <option value="2027">2027</option>
+                        <option value="2028">2028</option>
+                        <option value="2029">2029</option>
+                        <option value="2030">2030</option>
+                    </select>
+                    <input type="number" placeholder="CVV">
+                </div>
+                <input type="checkbox">&ensp;Save this card for future transactions&ensp;<i class="bi bi-question-circle"></i>
+                <p style="font-weight: bold;font-size: 14px;">Billing Address</p><br>
+                <input type="checkbox">&ensp;Save this card for future transactions
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="quickcheckout.jsadd"></script>
