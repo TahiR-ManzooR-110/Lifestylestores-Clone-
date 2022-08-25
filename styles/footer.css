@@ -167,7 +167,7 @@ body {
   width: 180%;
 }
 #phone,
-#help,
+#helpcentre,
 #writetous {
   display: flex;
 }
@@ -179,12 +179,13 @@ body {
   border-radius: 35px;
   margin-right: 10%;
 }
-#help > i {
+#helpcentre > i {
   border: 1px solid grey;
-  height: 10px;
+  height: 7px;
   margin-left: -28%;
-  padding: 12%;
-  margin-top: 15%;
+  padding: 11%;
+  padding-bottom: 14%;
+  margin-top: 14%;
   border-radius: 50px;
   margin-right: 10%;
 }
@@ -193,7 +194,8 @@ body {
   height: 18px;
   padding: 9%;
   margin-top: 14%;
-  margin-left: -35%;
+  padding-bottom: 8%;
+  margin-left: -48%;
   border-radius: 35px;
   margin-right: 10%;
 }

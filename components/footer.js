@@ -124,7 +124,7 @@ function footer(){
           <p>1800-123-1555</p>
         </div>
       </div>
-      <div id="help">
+      <div id="helpcentre">
         <i class="fa-solid fa-question"></i>
         <div id="con_usII">
           <p>Helpcentre</p>
