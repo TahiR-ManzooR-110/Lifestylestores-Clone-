@@ -1,16 +1,18 @@
-function footer(){
-    return `<div id="subscription">
+function footer() {
+  return `<div id="subscription">
     <div id="subscribe">
       <h1>Subscribe to our awesome emails.</h1>
       <p>Get our latest offers and news straight in your inbox.</p>
-      <input type="email" placeholder="Please enter an email address">
-      <button>Subscribe</button>
+      <div id="thankyou"></div>
+      <input type="email" id="user_email" placeholder="Please enter an email address">
+      <button id="submit_details">Subscribe</button>
+      <div id="please"></div>
     </div>
     <div id="download">
       <h1>Download our apps</h1>
       <p>Shop our products and offers on-the-go.</p>
-      <img src="https://www.pngmart.com/files/10/Download-On-The-App-Store-PNG-Transparent-Image.png" alt="Apple">
-      <img src="https://w7.pngwing.com/pngs/918/845/png-transparent-google-play-logo-google-play-app-store-android-google-play-text-logo-sign-thumbnail.png" alt="">
+      <a href="https://apps.apple.com/in/app/id1180884618?ls=1"><img id="applestore" src="https://www.pngmart.com/files/10/Download-On-The-App-Store-PNG-Transparent-Image.png" alt="Apple"></a>
+      <a href="https://play.google.com/store/apps/details?id=com.applications.lifestyle"><img id="playstore" src="https://w7.pngwing.com/pngs/918/845/png-transparent-google-play-logo-google-play-app-store-android-google-play-text-logo-sign-thumbnail.png" alt=""></a>
     </div>
   </div>
   <div id="product_category">
@@ -140,9 +142,9 @@ function footer(){
       </div>
     </div>
     <div id="socialmedia">
-      <i class="fa-brands fa-facebook-f  fa-lg (11% increase)"></i>
-      <i class="fa-brands fa-twitter fa-lg (11% increase)"></i>
-      <i class="fa-brands fa-instagram fa-lg (11% increase)"></i>
+    <a href="https://www.facebook.com/lifestylestores"><i class="fa-brands fa-facebook-f  fa-lg (11% increase)"></i></a>
+    <a href="https://twitter.com/Lifestyle_Store"><i class="fa-brands fa-twitter fa-lg (11% increase)"></i></a>
+    <a href="https://www.instagram.com/lifestylestores/"><i class="fa-brands fa-instagram fa-lg (11% increase)"></i></a>  
     </div>
   </div>
   <div id="terms">
@@ -152,12 +154,12 @@ function footer(){
     <div id="policy_terms">
       <p>© 2022 RNA Intellectual Property Limited.</p>
       <div>
-        <p>Terms & Conditions</p>
+      <p><a href="https://www.lifestylestores.com/in/en/termsandconditions">Terms & Conditions</a></p>
         <p>-</p>
-        <p>Privacy Policy</p>
+        <p><a href="https://www.lifestylestores.com/in/en/termsandconditions">Privacy Policy</a></p>
       </div>
     </div>
   </div>`;
 }
 
-export {footer};
+export { footer };

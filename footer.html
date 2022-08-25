@@ -20,6 +20,19 @@
     import { footer } from "./components/footer.js";
 
     let container = document.getElementById("footer");
-    container.innerHTML=footer();
+    container.innerHTML = footer();
+  </script>
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+  ></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("7CP68ny8u-qw43wpn");
+    })();
+  </script>
+  <script src="./scripts/footerfunc.js" type="module">
+    import { footer } from "./components/footer.js";
   </script>
 </html>
+

@@ -25,7 +25,7 @@ body {
   font-size: 22px;
 }
 #subscribe > p {
-  color: #a1a29e;
+  color:rgb(161,147,144);
   font-family: ProximaNova-Regular, "Helvetica Neue", Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji";
   font-size: 15px;
@@ -45,6 +45,21 @@ body {
 #subscribe > input:focus {
   border: none;
   outline: none;
+}
+#thankyou{
+  margin-bottom: -2%;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: ProximaNova-Regular, "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+}
+#please{
+  color: rgb(242, 81, 57);
+  font-size: 14px;
+  padding-top: 8px;
+  font-weight: 400;
+  font-family: ProximaNova-Regular, "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
 }
 #subscribe > button {
   height: 56px;
@@ -70,17 +85,17 @@ body {
   font-size: 22px;
 }
 #download > p {
-  color: #a1a29e;
+  color:rgb(161,147,144);
   font-family: ProximaNova-Regular, "Helvetica Neue", Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji";
   font-size: 15px;
 }
-#download > img {
+#download >a> img {
   width: 35%;
   height: 60px;
   margin-top: 3%;
 }
-#download > img + img {
+#download >a + a>img {
   margin-left: 6%;
 }
 #product_category {
@@ -122,7 +137,7 @@ body {
   justify-content: space-between;
 }
 #con_usI > p:first-child {
-  color: #a1a29e;
+  color:rgb(161,147,144);
   font-family: ProximaNova-Regular, "Helvetica Neue", Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji";
   font-size: 15px;
@@ -137,7 +152,7 @@ body {
   width: 180%;
 }
 #con_usII > p:first-child {
-  color: #a1a29e;
+  color:rgb(161,147,144);
   font-family: ProximaNova-Regular, "Helvetica Neue", Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji";
   font-size: 15px;
@@ -152,7 +167,7 @@ body {
   width: 180%;
 }
 #con_usIII > p:first-child {
-  color: #a1a29e;
+  color:rgb(161,147,144);
   font-family: ProximaNova-Regular, "Helvetica Neue", Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji";
   font-size: 15px;
@@ -199,11 +214,14 @@ body {
   border-radius: 35px;
   margin-right: 10%;
 }
-#socialmedia {
+#socialmedia{
   width: 10%;
-  padding-top: 4%;
+  padding-top: 3.5%;
   display: flex;
   justify-content: space-between;
+}
+#socialmedia>a{
+  color: black;
 }
 #terms {
   height: 100px;
@@ -221,32 +239,35 @@ body {
 #footer_logo > img {
   width: 100%;
 }
-#policy_terms {
+#policy_terms{
   width: 20%;
   height: 50px;
   margin-top: 2.1%;
 }
-#policy_terms > p {
-  color: #5d5e5c;
+#policy_terms>p {
+  color:rgb(161,147,144);
   font-family: ProximaNova-Regular, "Helvetica Neue", Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji";
   font-size: 13px;
   margin-bottom: -3%;
 }
-#policy_terms > div {
+#policy_terms > div{
   display: flex;
 }
-#policy_terms > div > p {
-  color: #5d5e5c;
+#policy_terms > div>p>a{
+  color:rgb(161,147,144);
   font-family: ProximaNova-Regular, "Helvetica Neue", Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji";
   font-size: 13px;
+  text-decoration: none;
 }
-#policy_terms > div > p:first-child:hover,
-#policy_terms > div > p:last-child:hover {
+#policy_terms > div > p:first-child>a:hover,
+#policy_terms > div > p:last-child>a:hover {
   color: orange;
 }
-#policy_terms > div > p + p {
+#policy_terms >div>p{
   margin-left: 2%;
   margin-right: 1%;
+  margin-top: 4%;
+  color:rgb(161,147,144);
 }
