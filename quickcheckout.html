@@ -6,191 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Checkout</title>
+    <link rel="stylesheet" href="quickcheckout.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <style>
-        * {
-            margin: 0;
-        }
-
-        #nav {
-            height: 10vh;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        #logo {
-            width: 8vw;
-            margin-left: 6vw;
-        }
-
-        #nav>div {
-            color: grey;
-            font-size: 12px;
-            margin-right: 6vw;
-        }
-
-        /* #nav>div{
-
-        } */
-        #nav>div>div:nth-child(1) {
-            width: 10vw;
-            margin-left: 40%;
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-        }
-
-        #home_delivery {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            height: 8vh;
-            border: 2px solid orange;
-            width: 45.7%;
-            padding: 0.7rem;
-        }
-
-        #home_delivery p:last-child {
-            color: grey;
-            font-size: 13px;
-        }
-
-        #collect {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            height: 8vh;
-            border: 1px solid grey;
-            width: 45.7%;
-            padding: 0.7rem;
-
-        }
-
-        #collect p:last-child {
-            color: grey;
-            font-size: 13px;
-        }
-
-        #main {
-            width: 55vw;
-            border: 1px solid red;
-            margin-left: 6vw;
-            margin-top: 4vh;
-            line-height: 145%;
-        }
-
-        h2 {
-            margin-bottom: 3%;
-        }
-
-        #main>div:first-child {
-            border-bottom: 1px solid grey;
-            height: 151vh;
-            margin-bottom: 4vh;
-        }
-
-        #main>div:first-child>div {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            text-align: center;
-            margin-bottom: 8vh;
-        }
-
-        #main>div:first-child>p:first-child {
-            font-size: 17px;
-        }
-
-        #main>div:first-child>p:last-child {
-            font-size: 14px;
-            color: grey;
-        }
-
-        #main>div:first-child input {
-            width: 65%;
-            height: 5vh;
-            margin-top: 1vh;
-            margin-bottom: 2vh;
-        }
-
-        #main>div:first-child select {
-            width: 66%;
-            height: 6vh;
-        }
-
-        #main>div:first-child>#address_type {
-            display: flex;
-            justify-content: space-between;
-            width: 40%;
-            border: 1px solid red;
-        }
-
-        #main>div:first-child>#address_type input {
-            width: 2vw;
-            height: 0%;
-            margin-top: 0;
-            margin-bottom: 0;
-        }
-
-        #main>div:first-child>#address_type label {
-            margin-left: -53%
-        }
-
-        h3 {
-            margin-bottom: 4vh;
-        }
-
-        #card_icon {
-            font-size: 30px;
-        }
-
-        #cards {
-            display: flex;
-        }
-
-        #cards>div {
-            display: flex;
-            justify-content: space-between;
-            border: 1px solid;
-            width: 41%;
-            align-items: center;
-            margin-left: 1%;
-        }
-
-        #cards+div {
-
-            margin-left: 5%;
-            margin-top: 4vh;
-
-        }
-
-        #c_card {
-            margin-right: 25%;
-        }
-
-        .input_cards {
-            width: 55%;
-            height: 5vh;
-            margin-top: 1vh;
-            margin-bottom: 2vh;
-        }
-
-        #card_details {
-            margin-top: 5vh;
-            margin-bottom: 4vh;
-        }
-
-        #card_details>select {
-            width: 18%;
-            height: 6vh;
-        }
-
-        #card_details>select+input {
-            width: 18%;
-            height: 5vh;
-        }
-    </style>
 </head>
 
 <body>
@@ -208,115 +25,220 @@
         </div>
     </div>
     <hr>
-    <div id="main">
-        <div>
-            <h2>Select a shipping method</h2>
+    <div id="container">
+        <div id="main">
             <div>
-                <div id="home_delivery">
-                    <p>Home Delivery</p>
-                    <p>Get your product delivered to your home.</p>
-                </div>
-                <div id="collect">
-                    <p>Click & Collect</p>
-                    <p>Collect your order from a store of your choice.</p>
-                </div>
-            </div>
-            <h3>Add your shipping address</h3>
-            <label for="">Full Name</label><br>
-            <input type="text" placeholder="Enter your full name"><br>
-            <label for="">Mobile Number</label><br>
-            <input type="text" placeholder="Enter your mobile number"><br>
-            <label for="">Pincode</label><br>
-            <input type="number" placeholder="Enter your Pincode"><br>
-            <label for="">City</label><br>
-            <input type="text" placeholder="Select your city or Town"><br>
-            <label for="">State</label><br>
-            <select aria-placeholder="Select your State">
-                <option value="">Select your State</option>
-                <option value="Delhi">Delhi</option>
-                <option value="Mumbai">Mumbai</option>
-                <option value="Hyderabad">Hyderabad</option>
-                <option value="Pune">Pune</option>
-                <option value="Rajasthan">Rajasthan</option>
-                <option value="Bihar">Bihar</option>
-                <option value="Banguluru">Banguluru</option>
-            </select><br>
-            <label for="">Building name or number</label><br>
-            <input type="text" placeholder="Enter Building Name"><br>
-            <label for="">Street name or number</label><br>
-            <input type="text" placeholder="Flat/House number, Floor, Building"><br>
-            <label for="">Landmark</label><br>
-            <input type="text" placeholder="Landmark"><br>
-            <label for="">Address Type</label><br>
-            <div id="address_type">
-                <input type="radio" name="address_type">
-                <label for="">Home</label>
-                <input type="radio" name="address_type">
-                <label for="">Office</label>
-            </div>
-        </div>
-        <div>
-            <h2>Select a payment method</h2>
-            <div id="cards">
-                <input type="radio" name="cards">
+                <h2>Select a shipping method</h2>
                 <div>
-                    <i id="card_icon" class="bi bi-credit-card-2-back"></i>
+                    <a href="">
+                        <div id="home_delivery">
+                            <p>Home Delivery</p>
+                            <p class="p_grey">Get your product delivered to your home.</p>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div id="collect">
+                            <p>Click & Collect</p>
+                            <p class="p_grey">Collect your order from a store of your choice.</p>
+                        </div>
+                    </a>
+                </div>
+                <div id="shipping-method"></div>
+            </div>
+            <div id="payment-method">
+                <h2>Select a payment method</h2>
+                <div id="payment-mode">
+                    <input type="radio" name="cards">
                     <div>
-                        <h4>Credit/Debit Card</h4>
-                        <p style="color: grey;">Use your Credit or Debit card</p>
+                        <i id="payment-mode-icon" class="bi bi-credit-card-2-back"></i>
+                        <div class="payment-h&p">
+                            <h4>Credit/Debit Card</h4>
+                            <p style="color: grey;">Use your Credit or Debit card</p>
+                        </div>
                     </div>
                 </div>
+                <div>
+                    <div>
+                        <input type="radio" name="card">
+                        <label for="" id="c_card">Credit Card</label>
+                        <input type="radio" name="card">
+                        <label for="">Debit Card</label>
+                    </div>
+                    <div id="card_details">
+                        <label for="">Card Number</label><br>
+                        <input type="number" class="input_cards" placeholder="Enter your 6 digit card number"><br>
+                        <label for="">Name on Card</label><br>
+                        <input type="text" class="input_cards" placeholder="Name on Card"><br>
+                        <label for="">Expiry Date</label>
+                        <label for="" style="margin-left: 5%;">CVV</label><br>
+                        <select>
+                            <option value="">MM</option>
+                            <option value="1">01</option>
+                            <option value="2">02</option>
+                            <option value="3">03</option>
+                            <option value="4">04</option>
+                            <option value="5">05</option>
+                            <option value="6">06</option>
+                            <option value="7">07</option>
+                            <option value="8">08</option>
+                            <option value="9">09</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                        <select>
+                            <option value="">YYYY</option>
+                            <option value="">2022</option>
+                            <option value="2023">2023</option>
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                            <option value="2026">2026</option>
+                            <option value="2027">2027</option>
+                            <option value="2028">2028</option>
+                            <option value="2029">2029</option>
+                            <option value="2030">2030</option>
+                        </select>
+                        <input type="number" placeholder="CVV">
+                    </div>
+                    <input type="checkbox">&ensp;Save this card for future transactions&ensp;<i
+                        class="bi bi-question-circle"></i>
+                    <p class="billing-address" style="margin-bottom:-10px;">Billing Address</p><br>
+                    <div class="billing-address">
+                        <input type="checkbox">&ensp;Is billing address the same as shipping
+                        address?&ensp;&ensp;&ensp;&ensp;
+                        <p>+ Add new billing address</p>
+                    </div>
+                </div>
+                <hr>
+                <div id="payment-mode">
+                    <input type="radio" name="cards">
+                    <div>
+                        <i id="payment-mode-icon" payment-mode-icon class="bi bi-calendar2-week"></i>
+                        <div>
+                            <h4>EMI</h4>
+                            <p style="color: grey;">Available on orders above Rs3,000</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div id="payment-mode">
+                    <input type="radio" name="cards">
+                    <div>
+                        <i id="payment-mode-icon" class="bi bi-paypal"></i>
+                        <div>
+                            <h4>PayPal</h4>
+                            <p style="color: grey;">Pay now with your PayPal account</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div id="payment-mode">
+                    <input type="radio" name="cards">
+                    <div>
+                        <i id="payment-mode-icon" class="bi bi-cash-coin"></i>
+                        <div>
+                            <h4>Cash On Delivery</h4>
+                            <p style="color: grey;">+ Rs30</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div id="payment-mode">
+                    <input type="radio" name="cards">
+                    <div>
+                        <i id="payment-mode-icon" class="bi bi-bank"></i>
+                        <div>
+                            <h4>Net Banking</h4>
+                            <p style="color: grey;">Pay by your preferred bank account.</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+                <div id="payment-mode">
+                    <input type="radio" name="cards">
+                    <div>
+                        <i id="payment-mode-icon" class="bi bi-wallet2"></i>
+                        <div>
+                            <h4>Wallets</h4>
+                            <p style="color: grey;">Pay with your preferred wallet.</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+                <div id="payment-mode">
+                    <input type="radio" name="cards">
+                    <div>
+                        <img id="upi-icon"
+                            src="https://www.pngitem.com/pimgs/m/274-2746824_bhim-icon-png-image-free-download-searchpng-bhim.png"
+                            alt="">
+                        <div>
+                            <h4>UPI</h4>
+                            <p style="color: grey;">Pay with your preferred UPI Id.</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
             </div>
+            <div id="pay">
+                <p>By clicking on Proceed to Payment, you agree to our <a href="">Terms and Conditions</a></p>
+               <a href="status.html">
+                <div>
+                    <p>Pay Now</p>
+                </div>
+               </a> 
+            </div>
+            <hr>
+            <div id="bottom-left">
+                <div id="security-details">
+                    <img src="//i1.lmsin.net/website_images/common/images/logos/logo-comodo.png" alt="security-details"
+                        img>
+                    <p>Your credit card details are securely encrypted and passed directly to our PCI DSS compliant
+                        Payment
+                        Gateway for processing. We only store your credit card's last 4 digits and the expiration date.
+                        Your
+                        traffic to this page is secured using either a 256-bit or 128-bit SSL certificate depending on
+                        your
+                        browser version.</p>
+                </div>
+                <p>&copy;2021 RNA Intellectual Property Limited.</p>
+                <p>Privacy Policy - Terms of Use - Terms & Conditions</p>
+            </div>
+            <hr>
+        </div>
+        <div id="order_summary">
             <div>
                 <div>
-                    <input type="radio" name="card">
-                    <label for="" id="c_card">Credit Card</label>
-                    <input type="radio" name="card">
-                    <label for="">Debit Card</label>
+                    <p class="right">Your order summary</p>
                 </div>
-                <div id="card_details">
-                    <label for="">Card Number</label><br>
-                    <input type="number" class="input_cards" placeholder="Enter your 6 digit card number"><br>
-                    <label for="">Name on Card</label><br>
-                    <input type="text" class="input_cards" placeholder="Name on Card"><br>
-                    <label for="">Expiry Date</label>
-                    <label for="" style="margin-left: 5%;">CVV</label><br>
-                    <select>
-                        <option value="">MM</option>
-                        <option value="1">01</option>
-                        <option value="2">02</option>
-                        <option value="3">03</option>
-                        <option value="4">04</option>
-                        <option value="5">05</option>
-                        <option value="6">06</option>
-                        <option value="7">07</option>
-                        <option value="8">08</option>
-                        <option value="9">09</option>
-                        <option value="10">10</option>
-                        <option value="11">11</option>
-                        <option value="12">12</option>
-                    </select>
-                    <select>
-                        <option value="">YYYY</option>
-                        <option value="">2022</option>
-                        <option value="2023">2023</option>
-                        <option value="2024">2024</option>
-                        <option value="2025">2025</option>
-                        <option value="2026">2026</option>
-                        <option value="2027">2027</option>
-                        <option value="2028">2028</option>
-                        <option value="2029">2029</option>
-                        <option value="2030">2030</option>
-                    </select>
-                    <input type="number" placeholder="CVV">
+                <div>
+                    <p class="p_grey right">Shipping charges might vary based on delivery location</p>
                 </div>
-                <input type="checkbox">&ensp;Save this card for future transactions&ensp;<i class="bi bi-question-circle"></i>
-                <p style="font-weight: bold;font-size: 14px;">Billing Address</p><br>
-                <input type="checkbox">&ensp;Save this card for future transactions
+
+            </div>
+            <div id="bottom_part_right">
+                <p>Ways you can pay:</p>
+                <div id="payment_icons">
+                    <img class="bottom-right_icon"
+                        src="https://png.pngitem.com/pimgs/s/146-1464945_visa-electron-hd-png-download.png" alt="">
+                    <img class="bottom-right_icon"
+                        src="https://png.pngitem.com/pimgs/s/277-2774669_mastercard-hd-png-download.png" alt="">
+                    <img class="bottom-right_icon" src="//i1.lmsin.net/website_images/in/checkout/logo-rupay.svg"
+                        alt="">
+                    <img class="bottom-right_icon" src="//i1.lmsin.net/website_images/ae/checkout/logo-cash.png"
+                        alt="">
+                    <img class="
+                    bottom-right_icon" src="//i1.lmsin.net/website_images/in/checkout/logo-netbanking.svg" alt="">
+                    <img class="
+                    bottom-right_icon" src="//i1.lmsin.net/website_images/in/checkout/logo-wallet.svg" alt="">
+                    <img class="bottom-right_icon" src="//i1.lmsin.net/website_images/in/checkout/logo-rewards.svg"
+                        alt="">
+                </div>
             </div>
         </div>
     </div>
 </body>
 
 </html>
-<script src="quickcheckout.jsadd"></script>
+<script src="quickcheckout.js" type="module"></script>
