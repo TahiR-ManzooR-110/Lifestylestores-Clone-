@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Processing</title>
+    <style>
+         * {
+            margin: 0;
+        }
+
+        #nav {
+            height: 10vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #logo {
+            width: 8vw;
+            margin-left: 6vw;
+        }
+
+        #nav>div {
+            color: grey;
+            font-size: 12px;
+            margin-right: 6vw;
+        }
+
+        /* #nav>div{
+
+        } */
+        #nav>div>div:nth-child(1) {
+            width: 10vw;
+            margin-left: 40%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        #container{
+            text-align: center;
+            width: 80%;
+            margin: auto;
+            margin-top: 35vh;
+            font-size: 30px;
+        }
+        #status{
+            width: 8vw;
+        }
+    </style>
+</head>
+<body onload="status()">
+    <div id="nav">
+        <img id="logo" src="//i1.lmsin.net/website_images/in/logos/logo-lifestyle.svg" alt="lifestyle logo">
+        <div>
+            <div>
+                <i class="bi bi-telephone"></i>
+                <p>Call 1800-123-1555</p>
+            </div>
+            <div>
+                Monday - Saturday, 09:00AM - 07:00PM
+            </div>
+
+        </div>
+    </div>
+    <hr>
+    <div id="container">
+        <img id="status" src="https://i.gifer.com/origin/b4/b4d657e7ef262b88eb5f7ac021edda87.gif" alt="processing">
+        <p id="status_p">Please wait while we are confirming your payment...</p>
+    </div>
+</body>
+</html>
+<script src="status.js"></script>
