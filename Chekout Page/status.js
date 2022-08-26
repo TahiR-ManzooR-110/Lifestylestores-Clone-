@@ -10,6 +10,6 @@ let status=()=>{
         container.style.marginTop="10vh"
         status_img.style.width="40vw"
         status_img.src="https://cdn.dribbble.com/users/1197989/screenshots/5585685/delivery-boy.gif"
-        status_p.innerText="Your order has been dispatched uccessfully"
+        status_p.innerText="Your order has been dispatched successfully"
     },4000)    
 }

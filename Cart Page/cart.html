@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <style>
+        #starting {
+            margin: auto;
+            width: 90vw;
+            border-bottom: 1px solid grey;
+        }
+
+        #container {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        #store-products {
+            width: 58vw;
+        }
+
+        #store-products>div>div {
+            display: flex;
+            width: 55vw;
+            margin: auto;
+            margin-top: 2%;
+            margin-bottom: 2%;
+        }
+
+        h4 {
+            margin-left: 4.1%;
+        }
+
+        #checkout-section {
+            width: 28vw;
+        }
+        #checkout-section>div{
+            border:1px solid grey;
+            margin-bottom: 3%;
+            padding-bottom: 4%;
+        }
+        #checkout-section>div>div {
+            border-bottom: 1px solid grey;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+
+        #checkout-section>div>div:nth-child(2){
+            border-bottom: none;
+            margin-bottom: 5%;
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+            font-size: 19px;
+        }
+        #checkout-section>div:first-child>a{
+            text-decoration: none;
+        }
+        a>div{
+            border-bottom: none;
+            margin-bottom: 5%;
+            display: flex;          
+            justify-content: space-between;
+            font-weight: bold;
+            font-size: 19px;
+            margin-left: 5%;
+            margin-right: 5%;
+            
+        }
+        #checkout-section>div:first-child>a button {
+            background-color: orange;
+            color: white;
+            width: 100%;
+            height: 8vh;
+            border: none;
+            font-weight: bold;
+        }
+
+        #checkout-section>div>div:nth-child(4) {
+            margin-top: 5%;
+            background-color: #efefef;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            border: none;
+        }
+
+        #checkout-section>div:first-child>div>div {
+            margin-bottom: -5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #checkout-section>div>div>div:last-child {
+            margin-bottom: 1%;
+        }
+
+        #checkout-section>div:last-child>div{
+             font-weight: bold;
+             align-items: center;
+             border: none;
+        }
+        #checkout-section>div:last-child>p{
+             font-size: 14px;
+             margin-left: 5%;
+             margin-right: 5%;
+             color: grey;
+        }
+        #checkout-section>div:last-child>a{
+             font-size: 14px;
+             margin-left: 5%;
+             margin-right: 5%;
+             color: grey;
+          }
+          #checkout-section>div:last-child>a>button{
+             border: none;
+             font-weight: bold;
+             color: orange;
+          }
+
+        #enrol_btn{
+            background-color: white;
+            border: 1px solid orange;
+            color: orange;
+            height: 7vh;
+            width: 7vw;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="starting">
+        <h2>Your Shopping Basket</h2>
+    </div>
+    <h4 id="products-count"></h4>
+    <div id="container">
+        <div id="store-products">
+        </div>
+        <div id="checkout-section"></div>
+    </div>
+</body>
+
+</html>
+<script src="cart.js"></script>

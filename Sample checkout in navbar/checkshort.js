@@ -1,6 +1,6 @@
 let products=[
-    {Name:"Ritik",Profession:"Full Stack Web Developer"},
-    {Name:"Shivam",Profession:"Full Stack Web Developer"}
+    {image:"https://lmsin.net/cdn-cgi/image/h=294,w=196,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011517155-Green-Olive-1000011517155_01-2100.jpg",Name:"Ritik",Profession:"Full Stack Web Developer"},
+    {image:"https://lmsin.net/cdn-cgi/image/h=294,w=196,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011517155-Green-Olive-1000011517155_01-2100.jpg",Name:"Shivam",Profession:"Full Stack Web Developer"}
 ]
 
 localStorage.setItem("cart_products",JSON.stringify(products))
