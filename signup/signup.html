@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./signup.css">
+</head>
+
+<body>
+    <button id="myBtn">Open Modal</button>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="content">
+                <h1>Sign up or Sign in</h1>
+                <p>Enjoy the convenience of a single account across all participating brands</p>
+                <h5>Mobile Number</h5>
+                <div><button class="enter">+91</button><input id="number" type="tel" placeholder="Enter Number"
+                        name="" class="enter_number"></div>
+                <div id="t_c">
+                    <p>By creating your account you agree to our </p> <a href=""> Terms and Conditions</a>
+                </div>
+                <button id="conutinue_button" onclick="enterOTP()">CONTINUE</button>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+<script src="./signup.js"></script>
