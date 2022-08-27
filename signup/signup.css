@@ -1,0 +1,106 @@
+* {
+    font-family: "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    /* 15% from the top and centered */
+    /* padding: 20px; */
+    border: 1px solid #888;
+    width: 50%;
+    height: 400px;
+    /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+#content {
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#t_c {
+    margin-top: 10px;
+    align-items: center;
+}
+#conutinue_button {
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    border: none;
+    color: white;
+    margin-top: 10px;
+}
+a {
+    color: orange;
+    margin-left: 5px;
+}
+.enter {
+    width: 45px;
+    height: 50px;
+    margin-top: -20px;
+    background-color: white;
+    border: 1px solid orange;
+}
+.enter_number {
+    width: 400px;
+    height: 45px;
+    border: 1px solid orange;
+    font-size: 18px;
+    font-weight: 22px;
+    outline: orange;
+}
+.otp_input{
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    border: 1px solid orange;
+    outline: orange;
+}
+#otp_div {
+    display: flex;
+}
+#name {
+    width: 350px;
+    height: 50px;
+    border: 1px solid orange;
+    outline: orange;
+    font-size: 18px;
+    font-weight: 22px;
+}
