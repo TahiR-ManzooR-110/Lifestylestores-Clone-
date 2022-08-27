@@ -1,189 +1,527 @@
-#navdesk {
-    height: 40px;
-    background-color: black;
-  }
-  #sub_navdesk {
-    margin: auto;
-    width: 80%;
-    height: 40px;
-    display: flex;
-    justify-content: space-between;
-  }
-  #shipment {
-    height: 40px;
-    width: 40%;
-    display: flex;
-  }
-  #shipment > div {
-    color: white;
-    display: flex;
-    width: 100%;
-    margin: auto;
-  }
-  #shipment > div > i {
-    margin-top: 7%;
-    margin-right: 1%;
-  }
-  #shipment > div > p {
-    margin-top: 7%;
-    margin-left: 5%;
-  }
-  #downloadapps {
-    width: 26%;
-    display: flex;
-    color: white;
-    text-align: center;
-    font-size: 13px;
-    justify-content: space-between;
-  }
-  #downloadapps > p:first-child {
-    width: 45%;
-    margin: auto;
-  }
-  #downloadapps > p:nth-child(2) {
-    width: 35%;
-    border-left: 1px solid grey;
-    border-right: 1px solid grey;
-    margin: auto;
-  }
-  #downloadapps > p:last-child {
-    width: 20%;
-    margin: auto;
-  }
-  #downloadapps > div > p {
-    margin-top: 7%;
-    font-size: 12px;
-    font-family: ProximaNova-Semibold, "Helvetica Neue", Arial, sans-serif,
-      "Apple Color Emoji", "Segoe UI Emoji";
-  }
-  #nav_category {
-    height: 65px;
-    margin: auto;
-    display: flex;
-    width: 80%;
-  }
-  #category {
-    display: flex;
-    width: 32%;
-    justify-content: space-around;
-    position: static;
-  }
-  #category > p {
-    font-size: 14px;
-    font-family: ProximaNova-Semibold, "Helvetica Neue", Arial, sans-serif,
-      "Apple Color Emoji", "Segoe UI Emoji";
-    margin-top: 7%;
-  }
-  #category > p:hover {
-    color: rgb(250, 167, 24);
-  }
-  #search {
-    width: 34%;
-    margin: auto;
-  }
-  #search > input {
-    width: 96%;
-    height: 40px;
-    margin-left: 2%;
-    border: 0;
-    background: url("https://img.icons8.com/ios-glyphs/344/search.png");
-    background-repeat: no-repeat;
-    background-size: 17px;
-    background-position: 2%;
-    background-color: rgb(237, 237, 234);
-    font-family: ProximaNova-Semibold, "Helvetica Neue", Arial, sans-serif,
-      "Apple Color Emoji", "Segoe UI Emoji";
-    font-size: 17px;
-    padding-left: 10%;
-  }
-  #search > input:focus {
-    outline: none;
-  }
-  #more_sign {
-    display: flex;
-    width: 16%;
-    justify-content: space-evenly;
-  }
-  #more_sign > p {
-    font-size: 14px;
-    font-family: ProximaNova-Semibold, "Helvetica Neue", Arial, sans-serif,
-      "Apple Color Emoji", "Segoe UI Emoji";
-    margin-top: 13%;
-  }
-  #more_sign > p:hover {
-    color: rgb(250, 167, 24);
-  }
-  #more_sign > p + p {
-    border-left: 1px solid rgb(193, 189, 189);
-    padding-left: 7%;
-    height: 20px;
-  }
-  #cart {
-    width: 7.2%;
-    display: flex;
-    margin: auto;
-    justify-content: space-around;
-  }
-  #logo {
-    width: 10%;
-    overflow: hidden;
-  }
-  #logo > img {
-    width: 150%;
-    margin-left: -30%;
-    margin-right: -10%;
-  }
-  .dropbtn {
-    background-color:rgb(247,249,246);
-    color: black;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    margin-top: 16%;
-    font-size: 14px;
-    font-family: ProximaNova-Semibold,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
-  }
-  .dropbtn:hover{
-    color: rgb(250,167,24);
-  }
+body{
+  margin: 0;
+  padding: 0;
+}
+#navdesk{
+  height: 40px;
+  background-color: black;
+}
+#sub_navdesk{
+  margin: auto;
+  width: 80%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+#shipment{
+  height: 40px;
+  width: 40%;
+  display: flex;
+}
+#shipment>.dropdownI>.dropbtnI{
+  color: white;
+  display: flex;
+  width: 120%;
+  margin: auto;
+}
+#shipment>.dropdownI>.dropbtnI>i{
+margin-top: 11%;
+margin-right: 8%;
+}
+#shipment>.dropdownI>.dropbtnI>p{
+  font-size: 14px;
+  font-family: ProximaNova-Semibold,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+#shipment>.dropdownII>.dropbtnII{
+color: white;
+display: flex;
+width: 130%;
+margin: auto;
+margin-left: 36%;
+}
+#shipment>.dropdownII>.dropbtnII>i{
+margin-top: 10%;
+margin-right: 8%;
+}
+#shipment>.dropdownII>.dropbtnII>p{
+font-size: 14px;
+font-family: ProximaNova-Semibold,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+#shipment>.dropdownIII>.dropbtnIII{
+color: white;
+display: flex;
+width: 130%;
+margin: auto;
+margin-left: 70%;
+}
+#shipment>.dropdownIII>.dropbtnIII>i{
+margin-top: 10%;
+margin-right: 8%;
+}
+#shipment>.dropdownIII>.dropbtnIII>p{
+font-size: 14px;
+font-family: ProximaNova-Semibold,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+#downloadapps{
+  width: 26%;
+  display: flex;
+  color: white;
+  text-align: center;
+  font-size: 13px;
+  justify-content: space-between;
+  margin-left: 38%;
+}
+#downloadapps>p:first-child{
+  width: 45%;
+  margin: auto;
+}
+#downloadapps>p:nth-child(2){
+  width: 35%;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  margin: auto;
+}
+#downloadapps>p:last-child{
+  width: 20%;
+  margin: auto;
+}
+#downloadapps>p>a{
+  text-decoration: none;
+  color: white;
+}
+#downloadapps>div>p{
+  margin-top: 7%;
+  font-size: 12px;
+  font-family: ProximaNova-Semibold,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+#navbar{
+  background-color: rgb(247,249,246);
+}
+#footer {
+  padding: 16px;
+}
 
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    width: 200px;
-    height: 380px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-  }
-  .dropdown-content > div > .list {
-    list-style-type: none;
-    font-size: 14px;
-    padding-right: 5%;
-  }
-  .dropdown-content > div > .list > li {
-    margin-top: -2%;
-  }
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
+.sticky + #footer {
+  padding-top: 60px;
+}
+#nav_category{
+  height: 66px;
+  margin: auto;
+  display: flex;
+  width: 80%;
+}
+#category{
+  display: flex;
+  width: 32%;
+  justify-content: center;
+  position: static;
+}
+#category>p{
+  font-family: ProximaNova-Semibold,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+#category>p:hover{
+  color: rgb(250,167,24);
+}
+#search{
+  width: 34%;
+  margin: auto;
+}
+#search>input{
+  width: 96%;
+ height: 40px;
+ margin-left: 4%;
+ border: 0;
+ background: url("https://img.icons8.com/ios-glyphs/344/search.png");
+ background-repeat: no-repeat;
+ background-size: 17px;
+ background-position: 2%;
+ background-color: rgb(237,237,234);
+ font-family: ProximaNova-Semibold,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+ font-size: 17px;
+ padding-left: 10%;
+}
+#search>input:focus{
+  outline: none;
+}
+#more_sign{
+  display: flex;
+  width: 16%;
+  justify-content: space-evenly;
+}
+#more_sign>p{
+  font-size: 14px;
+  font-family: ProximaNova-Semibold,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  margin-top: 13%;
+}
+#more_sign>p:hover{
+  color: rgb(250,167,24);
+}
+#more_sign>p+p{
+  border-left: 1px solid rgb(193, 189, 189);
+  padding-left: 7%;
+  height: 20px;
+}
+#cart{
+  width: 7.2%;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+}
+#logo{
+  width: 10%;
+  overflow: hidden;
+}
+#logo>img{
+  width: 150%;
+  margin-left: -30%;
+  margin-right: -10%;
+}
+.dropbtn {
+  background-color:rgb(247,249,246);
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  margin-top: 16%;
+  font-size: 14px;
+  font-family: ProximaNova-Semibold,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+.dropbtn:hover{
+  color: rgb(250,167,24);
+}
 
-  .dropdown-content a:hover {
-    background-color:rgb(247,249,246);
-  }
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
 
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 200px;
+  height: 380px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content > div > .list {
+  list-style-type: none;
+  font-size: 14px;
+  padding-right: 5%;
+}
+.dropdown-content > div > .list > li {
+  margin-top: -2%;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
 
-  .dropdown:hover .dropbtn {
-    background-color: rgb(247,249,246);
-  }
+.dropdown-content a:hover {
+  background-color:rgb(247,249,246);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: rgb(247,249,246);
+}
+
+
+
+.dropbtnI {
+  color: black;
+  border: none;
+  font-size: 14px;
+  font-family: ProximaNova-Semibold,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  cursor: pointer;
+}
+.dropdownI {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-contentI {
+  display: none;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  background-color:rgb(247,249,246);
+  margin-top: -10%;
+}
+.dropdown-contentI > div > p{
+  list-style-type: none;
+  font-size: 12px;
+  padding-right: 5%;
+  padding-top: 3%;
+}
+.dropdown-contentI p {
+  color: black;
+  padding: 3px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-contentI p:hover {
+  background-color:rgb(247,249,246);
+}
+
+.dropdownI:hover .dropdown-contentI {
+  display: block;
+}
+
+.dropdownI:hover .dropbtnI {
+  background-color: transparent;
+}
+
+
+
+.dropbtnII {
+  color: black;
+  border: none;
+  font-size: 14px;
+  font-family: ProximaNova-Semibold,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  cursor: pointer;
+}
+.dropdownII {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-contentII {
+  display: none;
+  position: absolute;
+  width: 200px;
+  height: 80px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  background-color:rgb(247,249,246);
+  margin-top: -10%;
+  margin-left: 36%;
+}
+.dropdown-contentII > div > p{
+  list-style-type: none;
+  font-size: 12px;
+  padding-right: 5%;
+  font-family: ProximaNova-Semibold,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+.dropdown-contentII > div > p>button{
+  border: 0;
+  background-color: transparent;
+  font-size: 11px;
+  font-family: ProximaNova-Semibold,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  text-decoration: underline;
+  margin-left: -3%;
+}
+.dropdown-contentII p {
+  color: black;
+  padding: 3px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-contentII p:hover {
+  background-color:rgb(247,249,246);
+}
+
+.dropdownII:hover .dropdown-contentII {
+  display: block;
+}
+
+.dropdownII:hover .dropbtnII {
+  background-color: transparent;
+}
+
+
+
+
+.dropbtnIII {
+  color: black;
+  border: none;
+  font-size: 14px;
+  font-family: ProximaNova-Semibold,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  cursor: pointer;
+}
+.dropdownIII {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-contentIII {
+  display: none;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  background-color:rgb(247,249,246);
+  margin-top: -10%;
+  margin-left: 70%;
+}
+.dropdown-contentIII > div > p{
+  list-style-type: none;
+  font-size: 11px;
+  padding-right: 6%;
+  padding-top: 3%;
+  font-family: ProximaNova-Semibold,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+.dropdown-contentIII p {
+  color: black;
+  padding: 3px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-contentIII p:hover {
+  background-color:rgb(247,249,246);
+}
+
+.dropdownIII:hover .dropdown-contentIII {
+  display: block;
+}
+
+.dropdownIII:hover .dropbtnIII {
+  background-color: transparent;
+}
+
+
+
+.dropbtnA {
+  display: flex;
+  color: black;
+  border: none;
+  font-size: 14px;
+  font-family: ProximaNova-Semibold,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  cursor: pointer;
+  background-color: rgb(247,249,246);
+  margin: auto;
+  margin-top: 35%;    
+}
+
+.dropbtnA:hover{
+  color: rgb(250,167,24);
+  background-color: white;
+}
+.dropdownA {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+}
+.dropdownA:hover{
+  background-color: white;
+  color: rgb(250,167,24);
+}
+.dropdownA:hover .dropbtnA{
+  color: rgb(250,167,24);
+}
+.dropdown-contentA {
+  display: none;
+  position: absolute;
+  width: 1600px;
+  height: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  background-color:white;
+}
+.dropdown_contentI{
+  margin-top: 34%;
+  margin-left: -390%;
+}
+.dropdown_contentII{
+  margin-top: 34%;
+  margin-left: -490%;
+}
+.dropdown_contentIII{
+  margin-top: 34%;
+  margin-left: -590%;
+}
+.dropdown_contentIV{
+  margin-top: 23%;
+  margin-left: -460%;
+}
+.dropdown_contentV{
+  margin-top: 34%;
+  margin-left: -840%;
+}
+.dropdown-contentA>div{
+  width: 80.5%;
+  display: grid;
+  grid-template-columns: repeat(6,15.5%);
+  grid-template-rows: auto;
+  margin: auto;
+}
+.dropdown-contentA>.content_A>div>.listI{
+  border-left: 1px solid rgb(231, 228, 228);
+  height: 265px;
+}
+.dropdown-contentA>.content_A:first-child>div:first-child>.listI:first-child{
+  border: none;
+  margin-left: -10%;
+}
+.dropdown-contentA>.content_A:first-child>div:first-child>.listI:first-child>p:first-child{
+  margin-left: -23%;
+}
+.dropdown-contentA>.content_A>div>.listI>p{
+  width: 100%;
+  margin-left: -25%;
+  margin-bottom: -1%;
+  font-weight: bold;
+  font-size: 13px;
+  font-family: ProximaNova-Semibold,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+.dropdown-contentA>.content_A>div>.listI>li{
+  list-style-type: none;
+  margin-left: -12%;
+  margin-top: 2%;
+}
+.dropdown-contentA>.content_A>div>.listI>li>a{
+  text-decoration: none;
+  color: black;
+  color: #5d5e5c;
+font-family: ProximaNova-Regular, "Helvetica Neue", Arial, sans-serif,
+  "Apple Color Emoji", "Segoe UI Emoji";
+font-size: 13px;
+}
+.dropdown-contentA > div > p{
+  list-style-type: none;
+  font-size: 11px;
+  padding-right: 6%;
+  padding-top: 3%;
+  font-family: ProximaNova-Semibold,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+.dropdown-contentA p {
+  color: black;
+  padding: 3px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-contentA p:hover {
+  background-color:rgb(247,249,246);
+}
+
+.dropdownA:hover .dropdown-contentA {
+  display: block;
+}
+
+.dropdownA:hover .dropbtnA {
+  background-color: white;
+}
+.shoes_A{
+  width: 150%;
+}
+.shoes{
+  margin-top: 23%;
+}
