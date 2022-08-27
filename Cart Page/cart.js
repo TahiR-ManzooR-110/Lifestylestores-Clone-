@@ -11,7 +11,7 @@ let total_price=0;
 let appendingProducts=(data)=>{
     let store_products=document.getElementById("store-products")
     store_products.innerHTML=null;
-    data.forEach((el)=>{
+    data.forEach((el,index)=>{
         let main1_div=document.createElement("div");
         let main_div=document.createElement("div")
         let div=document.createElement("div");       
@@ -46,6 +46,9 @@ let appendingProducts=(data)=>{
         let remove=document.createElement("p")
         let movetofav=document.createElement("p")
         remove.innerText="Remove";
+        remove.onclick=()=>{
+             removefunc(index)
+        }
         movetofav.innerText="Move to favourite"
         buttons.append(remove,movetofav)
         main1_div.append(main_div,delivery,buttons)
@@ -54,6 +57,18 @@ let appendingProducts=(data)=>{
     })
 }
 
+let removefunc=(index)=>{
+    console.log(index);
+    cart_products=cart_products.filter((el,i)=>{
+        if(index==i){
+            delete(el)
+        }else{
+            return i!=index;
+        }
+    })
+    localStorage.setItem("cart_products",JSON.stringify(cart_products))
+    window.location.href="cart.html"
+}
 
 
 let appendChekout=()=>{

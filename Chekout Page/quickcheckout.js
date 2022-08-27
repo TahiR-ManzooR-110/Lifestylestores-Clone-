@@ -35,3 +35,32 @@ let map=(q)=>{
     let iframe=document.getElementById("map");
     iframe.src=`https://www.google.com/maps/embed/v1/place?key=AIzaSyCH9TfNqNKvnv02kxeAp1miJRhr6TPp4SA&q=${q}`
 }
+
+let total_price=0;
+let appendProducts=()=>{
+    let products=JSON.parse(localStorage.getItem("cart_products"))
+    let container=document.getElementById("products");
+    container.innerHTML=null;
+    products.forEach((el)=>{
+        let div=document.createElement("div");       
+        let image=document.createElement("img");
+        image.src=el.image;
+        image.setAttribute("class","img_of_pro")
+        let name=document.createElement("p");
+        name.innerText=el.title;
+        let price=document.createElement("p")
+        price.innerText=`₹${el.price}`;
+        price.style.fontWeight="bold"
+        price.style.marginTop="3%"
+        total_price+=+el.price;
+        let div2=document.createElement("div")
+        div2.append(name,price)
+        div2.setAttribute("class","title_price_div")
+        div.append(image,div2);
+        container.append(div)
+      })
+}
+appendProducts()
+
+let tp=document.getElementById("total_price");
+tp.innerText=`₹${total_price}`
