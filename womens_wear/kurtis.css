@@ -12,7 +12,7 @@
     display: flex;
     font-size: 12px;
     color: #929391;
-    cursor: pointer;
+    cursor: pointer;    
 }
 
 #directories>p {
@@ -20,7 +20,11 @@
 }
 
 #directories>img {
-    margin-left: 10px;
+    height: 10px;
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
 }
 
 .type {

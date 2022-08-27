@@ -4,7 +4,7 @@ let kurtis = [
     "title": "MELANGE Women Printed Woven Straight Kurta",
     "color": "Blue",
     "offer": "30%",
-    "price": "₹ 909",
+    "price": "909",
     "id": 1
   },
   {
@@ -12,7 +12,7 @@ let kurtis = [
     "title": "MELANGE Women Printed A-line Kurta",
     "color": "White",
     "offer": "30%",
-    "price": "₹ 1119",
+    "price": "1119",
     "id": 2
   },
   {
@@ -20,7 +20,7 @@ let kurtis = [
     "title": "MELANGE Women Embroidered Straight Kurta",
     "color": "Grey",
     "offer": "40%",
-    "price": "₹ 909",
+    "price": "909",
     "id": 3
   },
   {
@@ -28,7 +28,7 @@ let kurtis = [
     "title": "MELANGE Women Printed Straight Kurta",
     "color": "Blue",
     "offer": "30%",
-    "price": "₹ 909",
+    "price": "909",
     "id": 4
   },
   {
@@ -36,7 +36,7 @@ let kurtis = [
     "title": "MELANGE Women Floral Embroidered Straight Kurta",
     "color": "Purple",
     "offer": "10%",
-    "price": "₹ 1599",
+    "price": "1599",
     "id": 5
   },
   {
@@ -44,7 +44,7 @@ let kurtis = [
     "title": "BIBA Women Printed Band Collar Straight Kurta",
     "color": "Yellow",
     "offer": "40%",
-    "price": "₹ 1199",
+    "price": "1199",
     "id": 6
   },
   {
@@ -52,7 +52,7 @@ let kurtis = [
     "title": "MELANGE Women Printed Three-Quarter Sleeves A-line Kurta",
     "color": "Purple",
     "offer": "30%",
-    "price": "₹ 1259",
+    "price": "1259",
     "id": 7
   },
   {
@@ -60,7 +60,7 @@ let kurtis = [
     "title": "MELANGE Women Embroidered A-Line Kurta",
     "color": "Pink",
     "offer": "30%",
-    "price": "₹ 1119",
+    "price": "1119",
     "id": 8
   },
   {
@@ -68,7 +68,7 @@ let kurtis = [
     "title": "MELANGE Women Printed Straight Kurta",
     "color": "Beige",
     "offer": "30%",
-    "price": "₹ 909",
+    "price": "909",
     "id": 9
   },
   {
@@ -76,7 +76,7 @@ let kurtis = [
     "title": "MELANGE Women Printed Regular Fit Straight Kurta",
     "color": "Pink",
     "offer": "30%",
-    "price": "₹ 909",
+    "price": "909",
     "id": 10
   },
   {
@@ -84,7 +84,7 @@ let kurtis = [
     "title": "MELANGE Women Printed Band Collar Neck Straight Kurta",
     "color": "Blue",
     "offer": "30%",
-    "price": "₹ 1119",
+    "price": "1119",
     "id": 11
   },
   {
@@ -92,7 +92,7 @@ let kurtis = [
     "title": "MELANGE Women Printed Straight Kurta",
     "color": "Pink",
     "offer": "30%",
-    "price": "₹ 1259",
+    "price": "1259",
     "id": 12
   },
   {
@@ -100,7 +100,7 @@ let kurtis = [
     "title": "MELANGE Women Printed Knit Straight Kurta",
     "color": "Blue",
     "offer": "30%",
-    "price": "₹ 909",
+    "price": "909",
     "id": 13
   },
   {
@@ -108,7 +108,7 @@ let kurtis = [
     "title": "MELANGE Women Printed Woven Straight Kurta",
     "color": "Blue",
     "offer": "30%",
-    "price": "₹ 909",
+    "price": "909",
     "id": 1
   },
   {
@@ -116,7 +116,7 @@ let kurtis = [
     "title": "MELANGE Women Printed A-line Kurta",
     "color": "White",
     "offer": "30%",
-    "price": "₹ 1119",
+    "price": "1119",
     "id": 2
   },
   {
@@ -124,7 +124,7 @@ let kurtis = [
     "title": "MELANGE Women Embroidered Straight Kurta",
     "color": "Grey",
     "offer": "40%",
-    "price": "₹ 909",
+    "price": "909",
     "id": 3
   },
   {
@@ -132,7 +132,7 @@ let kurtis = [
     "title": "MELANGE Women Printed Straight Kurta",
     "color": "Blue",
     "offer": "30%",
-    "price": "₹ 909",
+    "price": "909",
     "id": 4
   },
   {
@@ -140,7 +140,7 @@ let kurtis = [
     "title": "MELANGE Women Floral Embroidered Straight Kurta",
     "color": "Purple",
     "offer": "10%",
-    "price": "₹ 1599",
+    "price": "1599",
     "id": 5
   },
   {
@@ -148,7 +148,7 @@ let kurtis = [
     "title": "BIBA Women Printed Band Collar Straight Kurta",
     "color": "Yellow",
     "offer": "40%",
-    "price": "₹ 1199",
+    "price": "1199",
     "id": 6
   },
   {
@@ -156,7 +156,7 @@ let kurtis = [
     "title": "MELANGE Women Printed Three-Quarter Sleeves A-line Kurta",
     "color": "Purple",
     "offer": "30%",
-    "price": "₹ 1259",
+    "price": "1259",
     "id": 7
   },
   {
@@ -164,7 +164,7 @@ let kurtis = [
     "title": "MELANGE Women Embroidered A-Line Kurta",
     "color": "Pink",
     "offer": "30%",
-    "price": "₹ 1119",
+    "price": "1119",
     "id": 8
   },
   {
@@ -172,7 +172,7 @@ let kurtis = [
     "title": "MELANGE Women Printed Straight Kurta",
     "color": "Beige",
     "offer": "30%",
-    "price": "₹ 909",
+    "price": "909",
     "id": 9
   },
   {
@@ -180,7 +180,7 @@ let kurtis = [
     "title": "MELANGE Women Printed Regular Fit Straight Kurta",
     "color": "Pink",
     "offer": "30%",
-    "price": "₹ 909",
+    "price": "909",
     "id": 10
   },
   {
@@ -188,7 +188,7 @@ let kurtis = [
     "title": "MELANGE Women Printed Band Collar Neck Straight Kurta",
     "color": "Blue",
     "offer": "30%",
-    "price": "₹ 1119",
+    "price": "1119",
     "id": 11
   },
   {
@@ -196,7 +196,7 @@ let kurtis = [
     "title": "MELANGE Women Printed Straight Kurta",
     "color": "Pink",
     "offer": "30%",
-    "price": "₹ 1259",
+    "price": "1259",
     "id": 12
   },
   {
@@ -204,7 +204,7 @@ let kurtis = [
     "title": "MELANGE Women Printed Knit Straight Kurta",
     "color": "Blue",
     "offer": "30%",
-    "price": "₹ 909",
+    "price": "909",
     "id": 13
   },
   {
@@ -212,7 +212,7 @@ let kurtis = [
     "title": "MELANGE Women Printed Woven Straight Kurta",
     "color": "Blue",
     "offer": "30%",
-    "price": "₹ 909",
+    "price": "909",
     "id": 1
   },
   {
@@ -220,7 +220,7 @@ let kurtis = [
     "title": "MELANGE Women Printed A-line Kurta",
     "color": "White",
     "offer": "30%",
-    "price": "₹ 1119",
+    "price": "1119",
     "id": 2
   },
   {
@@ -228,7 +228,7 @@ let kurtis = [
     "title": "MELANGE Women Embroidered Straight Kurta",
     "color": "Grey",
     "offer": "40%",
-    "price": "₹ 909",
+    "price": "909",
     "id": 3
   },
   {
@@ -236,7 +236,7 @@ let kurtis = [
     "title": "MELANGE Women Printed Straight Kurta",
     "color": "Blue",
     "offer": "30%",
-    "price": "₹ 909",
+    "price": "909",
     "id": 4
   },
   {
@@ -244,7 +244,7 @@ let kurtis = [
     "title": "MELANGE Women Floral Embroidered Straight Kurta",
     "color": "Purple",
     "offer": "10%",
-    "price": "₹ 1599",
+    "price": "1599",
     "id": 5
   },
   {
@@ -252,7 +252,7 @@ let kurtis = [
     "title": "BIBA Women Printed Band Collar Straight Kurta",
     "color": "Yellow",
     "offer": "40%",
-    "price": "₹ 1199",
+    "price": "1199",
     "id": 6
   },
   {
@@ -260,7 +260,7 @@ let kurtis = [
     "title": "MELANGE Women Printed Three-Quarter Sleeves A-line Kurta",
     "color": "Purple",
     "offer": "30%",
-    "price": "₹ 1259",
+    "price": "1259",
     "id": 7
   },
   {
@@ -268,7 +268,7 @@ let kurtis = [
     "title": "MELANGE Women Embroidered A-Line Kurta",
     "color": "Pink",
     "offer": "30%",
-    "price": "₹ 1119",
+    "price": "1119",
     "id": 8
   },
   {
@@ -276,7 +276,7 @@ let kurtis = [
     "title": "MELANGE Women Printed Straight Kurta",
     "color": "Beige",
     "offer": "30%",
-    "price": "₹ 909",
+    "price": "909",
     "id": 9
   },
   {
@@ -284,7 +284,7 @@ let kurtis = [
     "title": "MELANGE Women Printed Regular Fit Straight Kurta",
     "color": "Pink",
     "offer": "30%",
-    "price": "₹ 909",
+    "price": "909",
     "id": 10
   },
   {
@@ -292,7 +292,7 @@ let kurtis = [
     "title": "MELANGE Women Printed Band Collar Neck Straight Kurta",
     "color": "Blue",
     "offer": "30%",
-    "price": "₹ 1119",
+    "price": "1119",
     "id": 11
   },
   {
@@ -300,7 +300,7 @@ let kurtis = [
     "title": "MELANGE Women Printed Straight Kurta",
     "color": "Pink",
     "offer": "30%",
-    "price": "₹ 1259",
+    "price": "1259",
     "id": 12
   },
   {
@@ -308,7 +308,7 @@ let kurtis = [
     "title": "MELANGE Women Printed Knit Straight Kurta",
     "color": "Blue",
     "offer": "30%",
-    "price": "₹ 909",
+    "price": "909",
     "id": 13
   },
   {
@@ -316,7 +316,7 @@ let kurtis = [
     "title": "MELANGE Women Printed Woven Straight Kurta",
     "color": "Blue",
     "offer": "30%",
-    "price": "₹ 909",
+    "price": "909",
     "id": 1
   },
   {
@@ -324,7 +324,7 @@ let kurtis = [
     "title": "MELANGE Women Printed A-line Kurta",
     "color": "White",
     "offer": "30%",
-    "price": "₹ 1119",
+    "price": "1119",
     "id": 2
   },
   {
@@ -332,7 +332,7 @@ let kurtis = [
     "title": "MELANGE Women Embroidered Straight Kurta",
     "color": "Grey",
     "offer": "40%",
-    "price": "₹ 909",
+    "price": "909",
     "id": 3
   },
   {
@@ -340,7 +340,7 @@ let kurtis = [
     "title": "MELANGE Women Printed Straight Kurta",
     "color": "Blue",
     "offer": "30%",
-    "price": "₹ 909",
+    "price": "909",
     "id": 4
   },
   {
@@ -348,7 +348,7 @@ let kurtis = [
     "title": "MELANGE Women Floral Embroidered Straight Kurta",
     "color": "Purple",
     "offer": "10%",
-    "price": "₹ 1599",
+    "price": "1599",
     "id": 5
   },
   {
@@ -356,7 +356,7 @@ let kurtis = [
     "title": "BIBA Women Printed Band Collar Straight Kurta",
     "color": "Yellow",
     "offer": "40%",
-    "price": "₹ 1199",
+    "price": "1199",
     "id": 6
   },
   {
@@ -364,7 +364,7 @@ let kurtis = [
     "title": "MELANGE Women Printed Three-Quarter Sleeves A-line Kurta",
     "color": "Purple",
     "offer": "30%",
-    "price": "₹ 1259",
+    "price": "1259",
     "id": 7
   },
   {
@@ -372,7 +372,7 @@ let kurtis = [
     "title": "MELANGE Women Embroidered A-Line Kurta",
     "color": "Pink",
     "offer": "30%",
-    "price": "₹ 1119",
+    "price": "1119",
     "id": 8
   },
   {
@@ -380,7 +380,7 @@ let kurtis = [
     "title": "MELANGE Women Printed Straight Kurta",
     "color": "Beige",
     "offer": "30%",
-    "price": "₹ 909",
+    "price": "909",
     "id": 9
   },
   {
@@ -388,7 +388,7 @@ let kurtis = [
     "title": "MELANGE Women Printed Regular Fit Straight Kurta",
     "color": "Pink",
     "offer": "30%",
-    "price": "₹ 909",
+    "price": "909",
     "id": 10
   },
   {
@@ -396,7 +396,7 @@ let kurtis = [
     "title": "MELANGE Women Printed Band Collar Neck Straight Kurta",
     "color": "Blue",
     "offer": "30%",
-    "price": "₹ 1119",
+    "price": "1119",
     "id": 11
   },
   {
@@ -404,7 +404,7 @@ let kurtis = [
     "title": "MELANGE Women Printed Straight Kurta",
     "color": "Pink",
     "offer": "30%",
-    "price": "₹ 1259",
+    "price": "1259",
     "id": 12
   },
   {
@@ -412,7 +412,7 @@ let kurtis = [
     "title": "MELANGE Women Printed Knit Straight Kurta",
     "color": "Blue",
     "offer": "30%",
-    "price": "₹ 909",
+    "price": "909",
     "id": 13
   },
   {
@@ -420,7 +420,7 @@ let kurtis = [
     "title": "MELANGE Women Printed Woven Straight Kurta",
     "color": "Blue",
     "offer": "30%",
-    "price": "₹ 909",
+    "price": "909",
     "id": 1
   },
   {
@@ -428,7 +428,7 @@ let kurtis = [
     "title": "MELANGE Women Printed A-line Kurta",
     "color": "White",
     "offer": "30%",
-    "price": "₹ 1119",
+    "price": "1119",
     "id": 2
   },
   {
@@ -436,7 +436,7 @@ let kurtis = [
     "title": "MELANGE Women Embroidered Straight Kurta",
     "color": "Grey",
     "offer": "40%",
-    "price": "₹ 909",
+    "price": "909",
     "id": 3
   },
   {
@@ -444,7 +444,7 @@ let kurtis = [
     "title": "MELANGE Women Printed Straight Kurta",
     "color": "Blue",
     "offer": "30%",
-    "price": "₹ 909",
+    "price": "909",
     "id": 4
   },
   {
@@ -452,7 +452,7 @@ let kurtis = [
     "title": "MELANGE Women Floral Embroidered Straight Kurta",
     "color": "Purple",
     "offer": "10%",
-    "price": "₹ 1599",
+    "price": "1599",
     "id": 5
   },
   {
@@ -460,7 +460,7 @@ let kurtis = [
     "title": "BIBA Women Printed Band Collar Straight Kurta",
     "color": "Yellow",
     "offer": "40%",
-    "price": "₹ 1199",
+    "price": "1199",
     "id": 6
   },
   {
@@ -468,7 +468,7 @@ let kurtis = [
     "title": "MELANGE Women Printed Three-Quarter Sleeves A-line Kurta",
     "color": "Purple",
     "offer": "30%",
-    "price": "₹ 1259",
+    "price": "1259",
     "id": 7
   },
   {
@@ -476,7 +476,7 @@ let kurtis = [
     "title": "MELANGE Women Embroidered A-Line Kurta",
     "color": "Pink",
     "offer": "30%",
-    "price": "₹ 1119",
+    "price": "1119",
     "id": 8
   },
   {
@@ -484,7 +484,7 @@ let kurtis = [
     "title": "MELANGE Women Printed Straight Kurta",
     "color": "Beige",
     "offer": "30%",
-    "price": "₹ 909",
+    "price": "909",
     "id": 9
   },
   {
@@ -492,7 +492,7 @@ let kurtis = [
     "title": "MELANGE Women Printed Regular Fit Straight Kurta",
     "color": "Pink",
     "offer": "30%",
-    "price": "₹ 909",
+    "price": "909",
     "id": 10
   },
   {
@@ -500,7 +500,7 @@ let kurtis = [
     "title": "MELANGE Women Printed Band Collar Neck Straight Kurta",
     "color": "Blue",
     "offer": "30%",
-    "price": "₹ 1119",
+    "price": "1119",
     "id": 11
   },
   {
@@ -508,7 +508,7 @@ let kurtis = [
     "title": "MELANGE Women Printed Straight Kurta",
     "color": "Pink",
     "offer": "30%",
-    "price": "₹ 1259",
+    "price": "1259",
     "id": 12
   },
   {
@@ -516,7 +516,7 @@ let kurtis = [
     "title": "MELANGE Women Printed Knit Straight Kurta",
     "color": "Blue",
     "offer": "30%",
-    "price": "₹ 909",
+    "price": "909",
     "id": 13
   }
 ]
@@ -538,7 +538,7 @@ function ShowProduct(data) {
     price_div.setAttribute("class", "price_div");
 
     let price = document.createElement("h4");
-    price.innerText = el.price;
+    price.innerText = `₹ ${el.price}`;
 
     let offer = document.createElement("h5");
     offer.innerText = `${el.offer} OFF`;
@@ -637,17 +637,37 @@ window.onclick = function (event) {
 function getoptions(){
   let sorted = document.getElementById("sorted").value;
   // console.log('sorted: ', sorted);
-  if(sorted === "price"){
+  if(sorted === "ls"){
     kurtis.sort(function(a,b){
-      return a.price - b.price;
+      return +a.price - +b.price;
      });
      ShowProduct(kurtis);
   }
+  if(sorted === "hs"){
+    kurtis.sort(function(a,b){
+      return +b.price - +a.price;
+     });
+     ShowProduct(kurtis);
+  }
+  if(sorted === "alphabetical"){
+    kurtis.sort(function(a,b){
+      return a-b;
+     });
+     ShowProduct(kurtis);
+  }
+  
 }
 
+
+let cart_products = JSON.parse(localStorage.getItem("cart_products")) || [];
+
 function addToCart(el) {
-  console.log('el: ', el);
+  // console.log('el: ', el);
   alert("Product Added To Cart");
+
+  cart_products.push(el);
+
+  localStorage.setItem("cart_products",JSON.stringify(cart_products));
 }
 
 
