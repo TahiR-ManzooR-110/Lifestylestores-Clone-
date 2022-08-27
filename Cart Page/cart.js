@@ -1,5 +1,4 @@
 let cart_products=JSON.parse(localStorage.getItem("cart_products"))
-console.log(cart_products)
 let count=document.getElementById("products-count")
 let products_count=()=>{
      count.innerHTML=null;
@@ -7,24 +6,31 @@ let products_count=()=>{
 }
 products_count()
 
+let total_price=0;
+
 let appendingProducts=(data)=>{
     let store_products=document.getElementById("store-products")
     store_products.innerHTML=null;
-    data.forEach((el)=>{
+    data.forEach((el,index)=>{
         let main1_div=document.createElement("div");
         let main_div=document.createElement("div")
         let div=document.createElement("div");       
         let image=document.createElement("img");
-        image.style.width="40%"
         image.src=el.image;
+        image.setAttribute("class","img_of_pro")
         let name=document.createElement("p");;
-        name.innerText=el.Name;
-        let proffession=document.createElement("p")
-        proffession.innerText=el.Profession;
+        name.innerText=el.title;
+        name.style.fontWeight="bold"
+        let price=document.createElement("p")
+        price.innerText=`₹${el.price}`;
+        price.style.fontWeight="bold"
+        total_price+=+el.price;
+        let color=document.createElement("p");
+        color.innerText=el.color;
         div.append(image)
         let div2=document.createElement("div")
-        div2.append(name,proffession)
-        div2.style.marginLeft="-15%",div2.style.marginTop="-2%"
+        div2.append(name,price,color)
+        div2.style.marginLeft="-68%",div2.style.marginTop="-2%"
         main_div.append(div,div2)
         let delivery=document.createElement("div")
         let icon=document.createElement("i");
@@ -40,6 +46,9 @@ let appendingProducts=(data)=>{
         let remove=document.createElement("p")
         let movetofav=document.createElement("p")
         remove.innerText="Remove";
+        remove.onclick=()=>{
+             removefunc(index)
+        }
         movetofav.innerText="Move to favourite"
         buttons.append(remove,movetofav)
         main1_div.append(main_div,delivery,buttons)
@@ -47,6 +56,21 @@ let appendingProducts=(data)=>{
         store_products.append(main1_div)
     })
 }
+
+let removefunc=(index)=>{
+    console.log(index);
+    cart_products=cart_products.filter((el,i)=>{
+        if(index==i){
+            delete(el)
+        }else{
+            return i!=index;
+        }
+    })
+    localStorage.setItem("cart_products",JSON.stringify(cart_products))
+    window.location.href="cart.html"
+}
+
+
 let appendChekout=()=>{
     let checkout_section=document.getElementById("checkout-section");
     checkout_section.innerHTML=null;
@@ -56,7 +80,7 @@ let appendChekout=()=>{
     let t_mrp_a=document.createElement("p");
     t_mrp.innerText="Total MRP";
     t_mrp.style.fontSize="14px"
-    t_mrp_a.innerText=`₹2248`
+    t_mrp_a.innerText=`₹${total_price}`
     t_mrp_a.style.fontWeight="bold"
     let div1=document.createElement("div")
     div1.append(t_mrp,t_mrp_a)
@@ -65,6 +89,7 @@ let appendChekout=()=>{
     of_discount.style.fontSize="14px"
     let of_discount_a=document.createElement("p")
     of_discount_a.innerText=`-₹339`;
+    let discount_price=339;
     of_discount_a.style.color="green"
     let div2=document.createElement("div")
     div2.append(of_discount,of_discount_a)
@@ -82,7 +107,7 @@ let appendChekout=()=>{
     let total_p1=document.createElement("p")
     let total_p2=document.createElement("p")
     total_p1.innerText=`Total`
-    total_p2.innerText=`{₹3483}`;
+    total_p2.innerText=`₹${total_price-discount_price}`;
     div_total.append(total_p1,total_p2)
 
     let checkout_btn_div=document.createElement("div")
