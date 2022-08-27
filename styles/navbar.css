@@ -69,7 +69,6 @@ font-family: ProximaNova-Semibold,"Helvetica Neue",Arial,sans-serif,"Apple Color
   text-align: center;
   font-size: 13px;
   justify-content: space-between;
-  margin-left: 38%;
 }
 #downloadapps>p:first-child{
   width: 45%;
@@ -442,18 +441,22 @@ font-family: ProximaNova-Semibold,"Helvetica Neue",Arial,sans-serif,"Apple Color
 .dropdown_contentII{
   margin-top: 34%;
   margin-left: -490%;
+  height: 410px;
 }
 .dropdown_contentIII{
   margin-top: 34%;
   margin-left: -590%;
+  height: 320px;
 }
 .dropdown_contentIV{
   margin-top: 23%;
   margin-left: -460%;
+  height: 360px;
 }
 .dropdown_contentV{
   margin-top: 34%;
   margin-left: -840%;
+  height: 350px;
 }
 .dropdown-contentA>div{
   width: 80.5%;
