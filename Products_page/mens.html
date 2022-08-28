@@ -1,225 +1,453 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="mens.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-</head>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://i1.lmsin.net/website_images/in/favicons/lifestyle/favicon-16x16.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="../styles/footer.css" />
+    <link rel="stylesheet" href="../styles/navbar.css" />
+    <link rel="stylesheet" href="mens.css" />
+    <style>
+      #navbar {
+        background-color: rgb(247, 249, 246);
+      }
+      .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+      .sticky + #mens_main {
+        padding-top: 60px;
+      }
+    </style>
+  </head>
 
-<body>
-    <div id="directories">
-        <p>Home</p><img
-            src="https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/icons/right-pointer.svg"
-            alt="">
-        <p>Women</p><img
-            src="https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/icons/right-pointer.svg"
-            alt="">
-        <p>Ethnic Wear</p><img
-            src="https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/icons/right-pointer.svg"
-            alt="">
-        <p>Kurtas and Kurtis</p><img
-            src="https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/icons/right-pointer.svg"
-            alt="">
-    </div>
-    <div class="type">
+  <body>
+    <div id="nav_desk"></div>
+    <div id="navbar"></div>
+    <div id="mens_main">
+      <div id="directories">
+        <p>Home</p>
+        <img
+          src="https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/icons/right-pointer.svg"
+          alt=""
+        />
+        <p>Women</p>
+        <img
+          src="https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/icons/right-pointer.svg"
+          alt=""
+        />
+        <p>Ethnic Wear</p>
+        <img
+          src="https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/icons/right-pointer.svg"
+          alt=""
+        />
+        <p>Kurtas and Kurtis</p>
+        <img
+          src="https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/icons/right-pointer.svg"
+          alt=""
+        />
+      </div>
+      <div class="type">
         <h1>Kurtas and Kurtis</h1>
-    </div>
-    <!-- drop down sort and filter section -->
-    <div class="sort_filter">
+      </div>
+      <!-- drop down sort and filter section -->
+      <div class="sort_filter">
+        <div id="main_div">
+          <div style="border: 0px" class="dropdown">
+            <button
+              style="
+                border: 0.1px solid gray;
+                color: black;
+                background-color: white;
+                font-size: 14px;
+                width: 150px;
+              "
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Price
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <p>399 To 5999</p>
+              <input type="range" name="" id="" />
+            </div>
+          </div>
 
-        <div id="main_div" >
-
-            <div style="border: 0px;" class="dropdown">
-                <button style="border: 0.1px solid gray; color: black; background-color: white;font-size: 14px; width: 150px;"
-                    class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    Price
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <p>399 To 5999</p>
-                    <input  type="range" name="" id="">
-                </div>
+          <div style="border: 0px" class="dropdown">
+            <button
+              style="
+                border: 0.1px solid gray;
+                color: black;
+                background-color: white;
+                font-size: 14px;
+                width: 150px;
+              "
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Type
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <p><input type="checkbox" name="Cotton" id="Cotton" />Straight</p>
+              <p><input type="checkbox" name="Cotton" id="Cotton" />A Line</p>
+              <p><input type="checkbox" name="Cotton" id="Cotton" />Flaired</p>
+              <p><input type="checkbox" name="Cotton" id="Cotton" />High low</p>
+              <p><input type="checkbox" name="Cotton" id="Cotton" />Anarkali</p>
             </div>
-
-            <div style="border: 0px; " class="dropdown">
-                <button style="border: 0.1px solid gray; color: black; background-color: white;font-size: 14px; width: 150px;"
-                    class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    Type
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <p><input type="checkbox" name="Cotton" id="Cotton">Straight</p>
-                    <p><input type="checkbox" name="Cotton" id="Cotton">A Line</p>
-                    <p><input type="checkbox" name="Cotton" id="Cotton">Flaired</p>
-                    <p><input type="checkbox" name="Cotton" id="Cotton">High low</p>
-                    <p><input type="checkbox" name="Cotton" id="Cotton">Anarkali</p>
-                </div>
+          </div>
+          <div style="border: 0px" class="dropdown">
+            <button
+              style="
+                border: 0.1px solid gray;
+                color: black;
+                background-color: white;
+                font-size: 14px;
+                width: 150px;
+              "
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Fabric
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <p><input type="checkbox" name="Cotton" id="Cotton" />Cotton</p>
+              <p><input type="checkbox" name="Cotton" id="Cotton" />Viscous</p>
+              <p><input type="checkbox" name="Cotton" id="Cotton" />Rayon</p>
+              <p>
+                <input type="checkbox" name="Cotton" id="Cotton" />Cotton Blend
+              </p>
+              <p><input type="checkbox" name="Cotton" id="Cotton" />Polyster</p>
             </div>
-            <div style="border: 0px; " class="dropdown">
-                <button style="border: 0.1px solid gray; color: black; background-color: white;font-size: 14px; width: 150px;"
-                    class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    Fabric
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <p><input type="checkbox" name="Cotton" id="Cotton">Cotton</p>
-                    <p><input type="checkbox" name="Cotton" id="Cotton">Viscous</p>
-                    <p><input type="checkbox" name="Cotton" id="Cotton">Rayon</p>
-                    <p><input type="checkbox" name="Cotton" id="Cotton">Cotton Blend</p>
-                    <p><input type="checkbox" name="Cotton" id="Cotton">Polyster</p>
-                </div>
+          </div>
+          <div style="border: 0px" class="dropdown">
+            <button
+              style="
+                border: 0.1px solid gray;
+                color: black;
+                background-color: white;
+                font-size: 14px;
+                width: 150px;
+              "
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Size
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <p><input type="checkbox" name="Cotton" id="Cotton" />6</p>
+              <p><input type="checkbox" name="Cotton" id="Cotton" />8</p>
+              <p><input type="checkbox" name="Cotton" id="Cotton" />10</p>
+              <p><input type="checkbox" name="Cotton" id="Cotton" />12</p>
+              <p><input type="checkbox" name="Cotton" id="Cotton" />14</p>
             </div>
-            <div style="border: 0px; " class="dropdown">
-                <button style="border: 0.1px solid gray; color: black; background-color: white;font-size: 14px; width: 150px;"
-                    class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    Size
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <p><input type="checkbox" name="Cotton" id="Cotton">6</p>
-                    <p><input type="checkbox" name="Cotton" id="Cotton">8</p>
-                    <p><input type="checkbox" name="Cotton" id="Cotton">10</p>
-                    <p><input type="checkbox" name="Cotton" id="Cotton">12</p>
-                    <p><input type="checkbox" name="Cotton" id="Cotton">14</p>
-                </div>
+          </div>
+          <div style="border: 0px" class="dropdown">
+            <button
+              style="
+                border: 0.1px solid gray;
+                color: black;
+                background-color: white;
+                font-size: 14px;
+                width: 150px;
+              "
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Color
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <p><input type="checkbox" name="Cotton" id="Cotton" />Green</p>
+              <p><input type="checkbox" name="Cotton" id="Cotton" />Pink</p>
+              <p><input type="checkbox" name="Cotton" id="Cotton" />Green</p>
+              <p><input type="checkbox" name="Cotton" id="Cotton" />Yellow</p>
+              <p><input type="checkbox" name="Cotton" id="Cotton" />Red</p>
             </div>
-            <div style="border: 0px; " class="dropdown">
-                <button style="border: 0.1px solid gray; color: black; background-color: white;font-size: 14px; width: 150px;"
-                    class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    Color
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <p><input type="checkbox" name="Cotton" id="Cotton">Green</p>
-                    <p><input type="checkbox" name="Cotton" id="Cotton">Pink</p>
-                    <p><input type="checkbox" name="Cotton" id="Cotton">Green</p>
-                    <p><input type="checkbox" name="Cotton" id="Cotton">Yellow</p>
-                    <p><input type="checkbox" name="Cotton" id="Cotton">Red</p>
-                </div>
+          </div>
+          <div style="border: 0px" class="dropdown">
+            <button
+              style="
+                border: 0.1px solid gray;
+                color: black;
+                background-color: white;
+                font-size: 14px;
+                width: 150px;
+              "
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Sleeve length
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <p>
+                <input type="checkbox" name="Cotton" id="Cotton" />3/4 half
+                Sleevs
+              </p>
+              <p>
+                <input type="checkbox" name="Cotton" id="Cotton" />Sleevless
+              </p>
+              <p>
+                <input type="checkbox" name="Cotton" id="Cotton" />Half Sleevs
+              </p>
+              <p>
+                <input type="checkbox" name="Cotton" id="Cotton" />Full Sleevs
+              </p>
+              <p>
+                <input type="checkbox" name="Cotton" id="Cotton" />Cap Sleevs
+              </p>
             </div>
-            <div style="border: 0px; " class="dropdown">
-                <button style="border: 0.1px solid gray; color: black; background-color: white;font-size: 14px; width: 150px;"
-                    class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    Sleeve length
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <p><input type="checkbox" name="Cotton" id="Cotton">3/4 half Sleevs</p>
-                    <p><input type="checkbox" name="Cotton" id="Cotton">Sleevless</p>
-                    <p><input type="checkbox" name="Cotton" id="Cotton">Half Sleevs</p>
-                    <p><input type="checkbox" name="Cotton" id="Cotton">Full Sleevs</p>
-                    <p><input type="checkbox" name="Cotton" id="Cotton">Cap Sleevs</p>
-                </div>
+          </div>
+          <div style="border: 0px" class="dropdown">
+            <button
+              style="
+                border: 0.1px solid gray;
+                color: black;
+                background-color: white;
+                font-size: 14px;
+                width: 150px;
+              "
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Length
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <p>
+                <input type="checkbox" name="Cotton" id="Cotton" />Calf Lenght
+              </p>
+              <p>
+                <input type="checkbox" name="Cotton" id="Cotton" />Knee Length
+              </p>
+              <p><input type="checkbox" name="Cotton" id="Cotton" />Short</p>
+              <p><input type="checkbox" name="Cotton" id="Cotton" />Long</p>
+              <p>
+                <input type="checkbox" name="Cotton" id="Cotton" />Floor-Length
+              </p>
             </div>
-            <div style="border: 0px; " class="dropdown">
-                <button style="border: 0.1px solid gray; color: black; background-color: white;font-size: 14px; width: 150px;"
-                    class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    Length
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <p><input type="checkbox" name="Cotton" id="Cotton">Calf Lenght</p>
-                    <p><input type="checkbox" name="Cotton" id="Cotton">Knee Length</p>
-                    <p><input type="checkbox" name="Cotton" id="Cotton">Short</p>
-                    <p><input type="checkbox" name="Cotton" id="Cotton">Long</p>
-                    <p><input type="checkbox" name="Cotton" id="Cotton">Floor-Length</p>
-                </div>
+          </div>
+          <div style="border: 0px" class="dropdown">
+            <button
+              style="
+                border: 0.1px solid gray;
+                color: black;
+                background-color: white;
+                font-size: 14px;
+                width: 150px;
+              "
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Brand
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <p><input type="checkbox" name="Cotton" id="Cotton" />Amukti</p>
+              <p><input type="checkbox" name="Cotton" id="Cotton" />Aurelia</p>
+              <p><input type="checkbox" name="Cotton" id="Cotton" />BIBA</p>
+              <p><input type="checkbox" name="Cotton" id="Cotton" />Long</p>
+              <p><input type="checkbox" name="Cotton" id="Cotton" />Color Me</p>
             </div>
-            <div style="border: 0px; " class="dropdown">
-                <button style="border: 0.1px solid gray; color: black; background-color: white;font-size: 14px; width: 150px;"
-                    class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    Brand
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <p><input type="checkbox" name="Cotton" id="Cotton">Amukti</p>
-                    <p><input type="checkbox" name="Cotton" id="Cotton">Aurelia</p>
-                    <p><input type="checkbox" name="Cotton" id="Cotton">BIBA</p>
-                    <p><input type="checkbox" name="Cotton" id="Cotton">Long</p>
-                    <p><input type="checkbox" name="Cotton" id="Cotton">Color Me</p>
-                </div>
+          </div>
+          <div style="border: 0px" class="dropdown">
+            <button
+              style="
+                border: 0.1px solid gray;
+                color: black;
+                background-color: white;
+                font-size: 14px;
+                width: 150px;
+              "
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Browse
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <p><input type="checkbox" name="Cotton" id="Cotton" />50% OFF</p>
+              <p><input type="checkbox" name="Cotton" id="Cotton" />30% OFF</p>
+              <p><input type="checkbox" name="Cotton" id="Cotton" />40% OFF</p>
+              <p><input type="checkbox" name="Cotton" id="Cotton" />20% OFF</p>
             </div>
-            <div style="border: 0px; " class="dropdown">
-                <button style="border: 0.1px solid gray; color: black; background-color: white;font-size: 14px; width: 150px;"
-                    class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    Browse
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <p><input type="checkbox" name="Cotton" id="Cotton">50% OFF</p>
-                    <p><input type="checkbox" name="Cotton" id="Cotton">30% OFF</p>
-                    <p><input type="checkbox" name="Cotton" id="Cotton">40% OFF</p>
-                    <p><input type="checkbox" name="Cotton" id="Cotton">20% OFF</p>
-                </div>
+          </div>
+          <div style="border: 0px" class="dropdown">
+            <button
+              style="
+                border: 0.1px solid gray;
+                color: black;
+                background-color: white;
+                font-size: 14px;
+                width: 150px;
+              "
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Promotion
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <p><input type="checkbox" name="Cotton" id="Cotton" />50% OFF</p>
+              <p><input type="checkbox" name="Cotton" id="Cotton" />30% OFF</p>
+              <p><input type="checkbox" name="Cotton" id="Cotton" />40% OFF</p>
+              <p><input type="checkbox" name="Cotton" id="Cotton" />20% OFF</p>
+              <p><input type="checkbox" name="Cotton" id="Cotton" />Color Me</p>
             </div>
-            <div style="border: 0px; " class="dropdown">
-                <button style="border: 0.1px solid gray; color: black; background-color: white;font-size: 14px; width: 150px;"
-                    class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    Promotion  
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <p><input type="checkbox" name="Cotton" id="Cotton">50% OFF</p>
-                    <p><input type="checkbox" name="Cotton" id="Cotton">30% OFF</p>
-                    <p><input type="checkbox" name="Cotton" id="Cotton">40% OFF</p>
-                    <p><input type="checkbox" name="Cotton" id="Cotton">20% OFF</p>
-                    <p><input type="checkbox" name="Cotton" id="Cotton">Color Me</p>
-                </div>
+          </div>
+          <div style="border: 0px" class="dropdown">
+            <button
+              style="
+                border: 0.1px solid gray;
+                color: black;
+                background-color: white;
+                font-size: 14px;
+                width: 150px;
+              "
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Design
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <p>399 To 5999</p>
+              <input type="range" name="" id="" />
             </div>
-            <div style="border: 0px; " class="dropdown">
-                <button style="border: 0.1px solid gray; color: black; background-color: white;font-size: 14px; width: 150px;"
-                    class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    Design
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <p>399 To 5999</p>
-                    <input  type="range" name="" id="">
-                </div>
+          </div>
+          <div style="border: 0px" class="dropdown">
+            <button
+              style="
+                border: 0.1px solid gray;
+                color: black;
+                background-color: white;
+                font-size: 14px;
+                width: 150px;
+              "
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Discount Range
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <p>399 To 5999</p>
+              <input type="range" name="" id="" />
             </div>
-            <div style="border: 0px; " class="dropdown">
-                <button style="border: 0.1px solid gray; color: black; background-color: white;font-size: 14px; width: 150px;"
-                    class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    Discount Range
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <p>399 To 5999</p>
-                    <input  type="range" name="" id="">
-                </div>
-            </div>
+          </div>
         </div>
-    </div>
-    <!-- drop down sort and filter section -->
-    <div id="total_Products" >
+      </div>
+      <!-- drop down sort and filter section -->
+      <div id="total_Products">
         <p>2290 Products</p>
         <select name="" id="sorted" onchange="getoptions()">
-            <option value="">New Arrival</option>
-            <option value="offer">Discount</option>
-            <option value="ls">Sort-Low To High</option>
-            <option value="hs">Sort-High To Low</option>
-            <option value="">Relevance</option>
-            <option value="alphabetical">Alphabetical</option>
+          <option value="">New Arrival</option>
+          <option value="offer">Discount</option>
+          <option value="ls">Sort-Low To High</option>
+          <option value="hs">Sort-High To Low</option>
+          <option value="">Relevance</option>
+          <option value="alphabetical">Alphabetical</option>
         </select>
+      </div>
+      <div id="products"></div>
     </div>
-    <div id="products">
-
-    </div>
-</body>
-
-</html>
-<script src="mens.js"></script>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    <div id="footer"></div>
+  </body>
+  <script src="mens.js"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous"
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+  ></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("7CP68ny8u-qw43wpn");
+    })();
+  </script>
+  <script type="module">
+    import { navdesk, navbar } from "../components/navbar.js";
+    import { footer } from "../components/footer.js";
+    let navdesk_container = document.getElementById("nav_desk");
+    navdesk_container.innerHTML = navdesk();
+    let nav_container = document.getElementById("navbar");
+    nav_container.innerHTML = navbar();
+    let foo_container = document.getElementById("footer");
+    foo_container.innerHTML = footer();
+  </script>
+  <script src="../scripts/footerfunc.js" type="module">
+    import {navdesk, navbar} from "../components/navbar.js";
+    import { footer } from "../components/footer.js";
+  </script>
+  <script src="../scripts/navbarfunc.js" type="module">
+    import {navdesk, navbar} from "../components/navbar.js";
+    import { footer } from "../components/footer.js";
+  </script>
+</html>

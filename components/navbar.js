@@ -53,16 +53,16 @@ function navbar() {
             alt="Logo"
           />
         </div>
-        <div id="category">
+        <div id="nav_category_II">
           <p class="categoryA">
             <div class="dropdownA">
-              <button class="dropbtnA">Women</button>
+              <button class="dropbtnA"><a href="../women_page/index.html">Women</a></button>
               <div class="dropdown-contentA dropdown_contentI">
                 <div class="content_A">
                   <div>
                     <ul class="listI">
                       <p>Ethnic & Fusion Wear</p>
-                      <li><a href="#">Kurtas & Kurtis</a></li>
+                      <li><a href="../womens_wear/kurtis.html">Kurtas & Kurtis</a></li>
                       <li><a href="#">Kurta Sets</a></li>
                       <li><a href="#">Ethnic Dresses</a></li>
                       <li><a href="#">Tops & Tunics</a></li>
@@ -138,13 +138,13 @@ function navbar() {
           </p>
           <p class="categoryA">
             <div class="dropdownA">
-              <button class="dropbtnA">Men</button>
+              <button class="dropbtnA"><a href="../menpage/men.html">Men</a></button>
               <div class="dropdown-contentA dropdown_contentII">
                 <div class="content_A">
                   <div>
                     <ul class="listI">
                       <p>Topwear</p>
-                      <li><a href="#">Casual Shirts</a></li>
+                      <li><a href="../Products_page/mens.html">Casual Shirts</a></li>
                       <li><a href="#">Formal Shirts</a></li>
                       <li><a href="#">Polos</a></li>
                       <li><a href="#">T-Shirts</a></li>
@@ -571,11 +571,11 @@ function navbar() {
             </div>
           </div>
         </p>
-          <p>Sign Up / Sign In</p>
+          <p id="myBtn">Sign Up / Sign In</p>
         </div>
         <div id="cart">
-          <i class="fa-regular fa-heart fa-lg (11% increase)"></i>
-          <i class="fa-solid fa-cart-shopping fa-lg (11% increase)"></i>
+        <a href="#"><i class="fa-regular fa-heart fa-lg (11% increase)"></i></a>
+        <a href="../Cart Page/cart.html"><i class="fa-solid fa-cart-shopping fa-lg (11% increase)"></i></a>
         </div>
       </div>`;
 }

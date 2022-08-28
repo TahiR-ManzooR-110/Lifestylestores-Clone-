@@ -50,6 +50,7 @@
     margin: auto;
     margin-top: 40px;
     background-color: #f7f8f7;
+    overflow: hidden;
 }
 
 .sort_filter>select {
