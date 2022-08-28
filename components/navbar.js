@@ -56,7 +56,7 @@ function navbar() {
         <div id="nav_category_II">
           <p class="categoryA">
             <div class="dropdownA">
-              <button class="dropbtnA"><a href="../women_page/index.html">Women</a></button>
+              <button class="dropbtnA"><a href="../index.html">Women</a></button>
               <div class="dropdown-contentA dropdown_contentI">
                 <div class="content_A">
                   <div>
