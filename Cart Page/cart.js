@@ -35,7 +35,7 @@ let appendingProducts=(data)=>{
         div.append(image)
         let div2=document.createElement("div")
         div2.append(name,price,color)
-        div2.style.marginLeft="-68%",div2.style.marginTop="-2%"
+        div2.style.marginLeft="-40%",div2.style.marginTop="-2%"
         main_div.append(div,div2)
         let delivery=document.createElement("div")
         let icon=document.createElement("i");
