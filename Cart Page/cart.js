@@ -1,3 +1,8 @@
+import {navdesk,navbar} from "../components/navbar.js"
+import {footer} from "../components/footer.js"
+document.getElementById("navdesk").innerHTML=navdesk();
+document.getElementById("navbar").innerHTML=navbar();
+
 let cart_products=JSON.parse(localStorage.getItem("cart_products"))
 let count=document.getElementById("products-count")
 let products_count=()=>{
@@ -40,7 +45,7 @@ let appendingProducts=(data)=>{
         p.style.fontSize="13px",p.style.color="grey",p.style.marginLeft="1%"
         delivery.append(icon,p)
         delivery.style.alignItems="center";
-        delivery.style.borderBottom="1px solid grey";
+        delivery.style.borderBottom="1px solid grey",delivery.style.width="100%";;
         let buttons=document.createElement("div")
         buttons.style.color="orange",buttons.style.display="flex",buttons.style.justifyContent="space-evenly",buttons.style.marginTop="-2%",buttons.style.marginBottom="0"
         let remove=document.createElement("p")
@@ -52,7 +57,7 @@ let appendingProducts=(data)=>{
         movetofav.innerText="Move to favourite"
         buttons.append(remove,movetofav)
         main1_div.append(main_div,delivery,buttons)
-        main1_div.style.border="1px solid grey",main1_div.style.marginBottom="2%"
+        main1_div.style.border="1px solid grey",main1_div.style.marginBottom="2%",main1_div.style.paddingLeft="3%",main1_div.style.paddingRight="3%"
         store_products.append(main1_div)
     })
 }
@@ -61,7 +66,8 @@ let removefunc=(index)=>{
     console.log(index);
     cart_products=cart_products.filter((el,i)=>{
         if(index==i){
-            delete(el)
+            // slice is using el but it's not showing in here
+           cart_products.slice(i,1)
         }else{
             return i!=index;
         }
@@ -148,3 +154,5 @@ let appendChekout=()=>{
 }
 appendingProducts(cart_products)
 appendChekout()
+
+document.getElementById("footer").innerHTML=footer();
