@@ -30,35 +30,8 @@ font-size: 15px;
 #img1{
     height:450px;
 }
-#festive_wear>p{
-    font-size: 33px;
-font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
-font-weight: normal;
-margin-bottom: 26px;
-color:rgb(33, 32, 32);
-margin-top: 5%;
 
-}
-#festive_wear{
-    width:80%;
-
-  height:500px;
-    margin: auto;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
-}
-#festive{
-    display: flex;
-    margin: auto;
-  
-    width:100%;
-    }
-   
-    #festive>div>img{
-        width:95%;
-        margin: auto;
-       
-    }
-    #Trending>p{
+    .Trending>p{
         font-size: 33px;
 font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 font-weight: normal;
@@ -66,29 +39,29 @@ margin-bottom: 26px;
 color:rgb(33, 32, 32);
 margin-top: 6%;
     }
-    #Trending{
+    .Trending{
         width:80%;
   
     margin: auto;
  
     }
-    #Add-Ons{
+    .Add-Ons{
         display: flex;
     margin: auto;
 
     width:100%;
    
     }
-    #Add-Ons>div{
+    .Add-Ons>div{
      
         width:100%;
        
 
     }
-    #Add-Ons>div>img{
+    .Add-Ons>div>img{
         width:95%
     }
-    #Add-Ons>div>div{
+    .Add-Ons>div>div{
         text-align: center;
         box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
   height:70px;
@@ -98,13 +71,13 @@ font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color 
 font-weight: 400;
 box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
     }
-    #shop{
+    .shop{
         width:80%;
         margin:auto;
         height:600px;
         box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
     }
-    #shop>p{
+    .shop>p{
         font-size: 33px;
 font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 font-weight: normal;
@@ -112,7 +85,7 @@ margin-bottom: 26px;
 color:rgb(33, 32, 32);
 margin-top: 6%;
     }
-    #category{
+    .category{
         width:100%;
         display:grid;
         grid-template-columns: repeat(6,16%);
@@ -121,17 +94,17 @@ margin-top: 6%;
        
         margin:auto
     }
-    #category>div{
+    .category>div{
         width:100%;
         margin: auto;
       
        
     }
-    #category>div>img{
+    .category>div>img{
         width:100%;
         margin: auto;
     }
-    #category>div>div{
+    .category>div>div{
         text-align: center;
        
   height:100px;
@@ -141,14 +114,14 @@ font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color 
 font-weight: 400;
 
     }
-    #top_trending{
+    .top_trending{
         width:80%;
         margin:auto;
         height:600px;
         box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
 
     }
-    #top_trending>p{
+    .top_trending>p{
         font-size: 33px;
 font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 font-weight: normal;
@@ -156,7 +129,7 @@ margin-bottom: 26px;
 color:rgb(33, 32, 32);
 margin-top: 6%;
     }
-    #brands{
+    .brands{
         width:100%;
         display:grid;
         grid-template-columns: repeat(6,16%);
@@ -165,17 +138,17 @@ margin-top: 6%;
        
         margin:auto
     }
-    #brands>div{
+    .brands>div{
         width:100%;
         margin: auto;
       
        
     }
-    #brands>div>img{
+    .brands>div>img{
         width:100%;
         margin: auto;
     }
-    #brands>div>div{
+    .brands>div>div{
         text-align: center;
        
   height:100px;
@@ -185,7 +158,7 @@ font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color 
 font-weight: 400;
 
     }
-    #Wardrobe>p{
+    .Wardrobe>p{
     font-size: 33px;
 font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 font-weight: normal;
@@ -194,26 +167,26 @@ color:rgb(33, 32, 32);
 margin-top: 5%;
 
 }
-#Wardrobe{
+.Wardrobe{
     width:80%;
 
   height:520px;
     margin: auto;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
 }
-#Essentials{
+.Essentials{
     display: flex;
     margin: auto;
   
     width:100%;
     }
    
-    #Essentials>div>img{
+    .Essentials>div>img{
         width:95%;
         margin: auto;
        
     }
-    #top>p{
+    .top>p{
     font-size: 33px;
 font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 font-weight: normal;
@@ -222,26 +195,26 @@ color:rgb(33, 32, 32);
 margin-top: 8%;
 
 }
-#top{
+.top{
     width:80%;
 
   height:500px;
     margin: auto;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
 }
-#picks{
+.picks{
     display: flex;
     margin: auto;
   
     width:100%;
     }
    
-    #picks>div>img{
+    .picks>div>img{
         width:95%;
         margin: auto;
        
     }
-    #trend>p{
+    .trend>p{
         font-size: 33px;
 font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 font-weight: normal;
@@ -249,29 +222,29 @@ margin-bottom: 26px;
 color:rgb(33, 32, 32);
 margin-top: 8%;
     }
-    #trend{
+    .trend{
         width:100%;
         box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
     margin: auto;
  
     }
-    #brand{
+    .brand{
         display: flex;
     margin: auto;
 
     width:100%;
    
     }
-    #brand>div{
+    .brand>div{
      
         width:100%;
        
 
     }
-    #brand>div>img{
+    .brand>div>img{
         width:95%
     }
-    #brand>div>div{
+    .brand>div>div{
         text-align: center;
        
   height:70px;
@@ -281,7 +254,7 @@ font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color 
 font-weight: 400;
 
     }
-    #joggers>p{
+    .joggers>p{
     font-size: 33px;
 font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 font-weight: normal;
@@ -290,26 +263,26 @@ color:rgb(33, 32, 32);
 margin-top: 8%;
 
 }
-#joggers{
-    width:100%;
+.joggers{
+    width:80%;
 
   height:500px;
     margin: auto;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
 }
-#range{
+.range{
     display: flex;
     margin: auto;
   
     width:100%;
     }
    
-    #range>div>img{
+    .range>div>img{
         width:95%;
         margin: auto;
        
     }
-    #must>p{
+    .must>p{
     font-size: 33px;
 font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 font-weight: normal;
@@ -318,26 +291,26 @@ color:rgb(33, 32, 32);
 margin-top: 9%;
 
 }
-#must{
+.must{
     width:100%;
 
   height:500px;
     margin: auto;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
 }
-#haves{
+.haves{
     display: flex;
     margin: auto;
   
     width:100%;
     }
    
-    #haves>div>img{
+    .haves>div>img{
         width:95%;
         margin: auto;
        
     }
-    #Trendsetters>p{
+    .Trendsetters>p{
     font-size: 33px;
 font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 font-weight: normal;
@@ -346,26 +319,26 @@ color:rgb(33, 32, 32);
 margin-top: 9%;
 
 }
-#Trendsetters{
+.Trendsetters{
     width:100%;
 
   height:400px;
     margin: auto;
    
 }
-#clothes{
+.clothes{
     display: flex;
     margin: auto;
   
     width:100%;
     }
    
-    #clothes>div>img{
+    .clothes>div>img{
         width:95%;
         margin: auto;
        
     }
-    #most_loved>p{
+    .most_loved>p{
     font-size: 33px;
 font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 font-weight: normal;
@@ -374,27 +347,27 @@ color:rgb(33, 32, 32);
 margin-top: 6%;
 
 }
-#most_loved{
-    width:100%;
+.most_loved{
+    width:80%;
 
   height:450px;
     margin: auto;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
    
 }
-#styles{
+.styles{
     display: flex;
     margin: auto;
   
     width:100%;
     }
    
-    #styles>div>img{
+    .styles>div>img{
         width:100%;
         margin: auto;
        
     }
-    #editor>p{
+    .editor>p{
     font-size: 33px;
 font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 font-weight: normal;
@@ -403,35 +376,35 @@ color:rgb(33, 32, 32);
 margin-top: 9%;
 
 }
-#editor{
+.editor{
     width:100%;
 
   height:500px;
     margin: auto;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
 }
-#curated{
+.curated{
     display: flex;
     margin: auto;
   
     width:100%;
     }
    
-    #curated>div>img{
+    .curated>div>img{
         width:95%;
         margin: auto;
        
     }
-    #flash_sale{
+    .flash_sale{
     height:480px;
-  width: 100%;
+  width: 80%;
 
   box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
 
     margin: auto;
     margin-top: 8%;
     }
-    #flash_sale>p{
+    .flash_sale>p{
     font-size: 33px;
 font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 font-weight: normal;
@@ -440,35 +413,8 @@ color:rgb(33, 32, 32);
 margin-top: 9%;
 
 }
-#ethnic>p{
-    font-size: 33px;
-font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
-font-weight: normal;
-margin-bottom: 26px;
-color:rgb(33, 32, 32);
-margin-top: 9%;
 
-}
-#ethnic{
-    width:100%;
-
-  height:500px;
-    margin: auto;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
-}
-#bottoms{
-    display: flex;
-    margin: auto;
-  
-    width:100%;
-    }
-   
-    #bottoms>div>img{
-        width:95%;
-        margin: auto;
-       
-    }
-    #best>p{
+    .best>p{
     font-size: 33px;
 font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 font-weight: normal;
@@ -477,26 +423,26 @@ color:rgb(33, 32, 32);
 margin-top: 15%;
 
 }
-#best{
-    width:100%;
+.best{
+    width:80%;
 
   height:600px;
     margin: auto;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
 }
-#sellers{
+.sellers{
     display: flex;
     margin: auto;
   
     width:100%;
     }
    
-    #sellers>div>img{
+    .sellers>div>img{
         width:95%;
         margin: auto;
        
     }
-    #shopby>p{
+    .shopby>p{
     font-size: 33px;
 font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 font-weight: normal;
@@ -505,21 +451,21 @@ color:rgb(33, 32, 32);
 margin-top: 6%;
 
 }
-#shopby{
-    width:100%;
+.shopby{
+    width:80%;
 
   height:500px;
     margin: auto;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
 }
-#dept{
+.dept{
     display: flex;
     margin: auto;
   
     width:100%;
     }
    
-    #dept>div>img{
+    .dept>div>img{
         width:95%;
         margin: auto;
        
@@ -529,8 +475,9 @@ margin-top: 6%;
         position: relative;
         overflow:visible;
         padding: 5px;
-       
+       width:80%;
         height:600px;
+        margin: auto;
      
         
       }
@@ -767,7 +714,8 @@ img{
     position: relative;
     overflow:visible;
     padding: 5px;
-  
+  width:80%;
+  margin: auto;
     height:400px;
  
     
