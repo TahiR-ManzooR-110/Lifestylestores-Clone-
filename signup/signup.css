@@ -67,6 +67,22 @@
     color: white;
     margin-top: 10px;
 }
+#conutinue_buttonb {
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    border: none;
+    color: white;
+    margin-top: 10px;
+}
+#conutinue_buttonc {
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    border: none;
+    color: white;
+    margin-top: 10px;
+}
 a {
     color: orange;
     margin-left: 5px;
