@@ -7,20 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cart</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="icon" type="image/x-icon"
+        href="https://i1.lmsin.net/website_images/in/favicons/lifestyle/favicon-16x16.png" />
+    <link rel="stylesheet"
+        href="https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/prod/Sprite_icons.svg" />
+    <link rel="stylesheet" href="../fontawesome/css/all.min.css" />
     <style>
         #starting {
             margin: auto;
-            width: 90vw;
+            width: 80%;
             border-bottom: 1px solid grey;
         }
 
         #container {
             display: flex;
             justify-content: space-evenly;
+            /* width: 80%; */
+            margin: auto;
         }
 
         #store-products {
-            width: 58vw;
+            width: 50%;
+            margin-left:2%;
+
         }
 
         #store-products>div>div {
@@ -32,24 +43,27 @@
         }
 
         h4 {
-            margin-left: 4.1%;
+            margin-left: 10%;
         }
 
         #checkout-section {
-            width: 28vw;
+            width: 30%;
+            margin-left: -7%;
         }
-        #checkout-section>div{
-            border:1px solid grey;
+
+        #checkout-section>div {
+            border: 1px solid grey;
             margin-bottom: 3%;
             padding-bottom: 4%;
         }
+
         #checkout-section>div>div {
             border-bottom: 1px solid grey;
             margin-left: 5%;
             margin-right: 5%;
         }
 
-        #checkout-section>div>div:nth-child(2){
+        #checkout-section>div>div:nth-child(2) {
             border-bottom: none;
             margin-bottom: 5%;
             display: flex;
@@ -57,20 +71,23 @@
             font-weight: bold;
             font-size: 19px;
         }
-        #checkout-section>div:first-child>a{
+
+        #checkout-section>div:first-child>a {
             text-decoration: none;
         }
-        a>div{
+
+        a>div {
             border-bottom: none;
             margin-bottom: 5%;
-            display: flex;          
+            display: flex;
             justify-content: space-between;
             font-weight: bold;
             font-size: 19px;
             margin-left: 5%;
             margin-right: 5%;
-            
+
         }
+
         #checkout-section>div:first-child>a button {
             background-color: orange;
             color: white;
@@ -100,43 +117,49 @@
             margin-bottom: 1%;
         }
 
-        #checkout-section>div:last-child>div{
-             font-weight: bold;
-             align-items: center;
-             border: none;
+        #checkout-section>div:last-child>div {
+            font-weight: bold;
+            align-items: center;
+            border: none;
         }
-        #checkout-section>div:last-child>p{
-             font-size: 14px;
-             margin-left: 5%;
-             margin-right: 5%;
-             color: grey;
-        }
-        #checkout-section>div:last-child>a{
-             font-size: 14px;
-             margin-left: 5%;
-             margin-right: 5%;
-             color: grey;
-          }
-          #checkout-section>div:last-child>a>button{
-             border: none;
-             font-weight: bold;
-             color: orange;
-          }
 
-        #enrol_btn{
+        #checkout-section>div:last-child>p {
+            font-size: 14px;
+            margin-left: 5%;
+            margin-right: 5%;
+            color: grey;
+        }
+
+        #checkout-section>div:last-child>a {
+            font-size: 14px;
+            margin-left: 5%;
+            margin-right: 5%;
+            color: grey;
+        }
+
+        #checkout-section>div:last-child>a>button {
+            border: none;
+            font-weight: bold;
+            color: orange;
+        }
+
+        #enrol_btn {
             background-color: white;
             border: 1px solid orange;
             color: orange;
             height: 7vh;
             width: 7vw;
         }
-        .img_of_pro{
+
+        .img_of_pro {
             width: 13%;
         }
     </style>
 </head>
 
 <body>
+    <div id="navdesk"></div>
+    <div id="navbar"></div>
     <div id="starting">
         <h2>Your Shopping Basket</h2>
     </div>
@@ -146,7 +169,8 @@
         </div>
         <div id="checkout-section"></div>
     </div>
+    <div id="footer"></div>
 </body>
 
 </html>
-<script src="cart.js"></script>
+<script src="cart.js" type="module"></script>
