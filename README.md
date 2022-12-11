@@ -39,6 +39,54 @@ The home page has several information about the Products along with offers.
 
 One Clicking on the login and signup button you will be redirected to the login and signup prompt which is same as the original website. You need to enter your mobile number then a dummy OTP (Precoded) "1234" and upon validation you will be logged in into the website.
 
+***********************************************************************************************************************************************************************
+
+![products_Page![Screenshot (32)](https://user-images.githubusercontent.com/105916310/206892167-c88d10c9-9a46-45cb-b766-f0007a1d2c2d.png)
+]
+
+Products page contains all the products bifercated into different genres. On selecting one you will be shown all the products of the particular type. This Page in particular Kutas page. Clicking add to cart the item will be stored in the local Storage that will used to update cart and finializing the total amount to be paid. Also will get a pop up saying so.
+
+***********************************************************************************************************************************************************************
+
+![cartPage]![Screenshot (33)](https://user-images.githubusercontent.com/105916310/206892258-f9221ab1-19b4-421c-acc0-85e682acc147.png)
+
+Cart Page will show the number the products in the cart, Your Individual products as well as along with the total amount. Discounted value is also calculated if applicable and in the proced to buy button you will be taken to multiple payment options.
+
+***********************************************************************************************************************************************************************
+
+You can Just click on Pay now For Your Order
+
+
+![Screenshot (35)](https://user-images.githubusercontent.com/105916310/206892374-f53911b7-b334-4f2f-97c8-1bda6b7fc455.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
