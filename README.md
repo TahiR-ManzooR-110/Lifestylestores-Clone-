@@ -22,7 +22,7 @@ Lifestyle stores is an e-commerce website where all types of clothes and styling
 - Cart Functionality Page
 - Payment Gateway Page
 
-## More into the Project (LifeStyleStore - Clone)
+## More info the Project (LifeStyleStore - Clone)
 
 ![Lifestyle_LandingPage](https://tahir-manzoor-110.github.io/images/lifestylestores.png)
 This is the Landing Page of our project. 
